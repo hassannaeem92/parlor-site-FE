@@ -1,0 +1,32 @@
+.breadCrumWrapper {
+  min-height: 288px;
+  background-color: #e2e8f0;
+
+  .container {
+    .text-center {
+      .links {
+        color: rgb(107, 114, 128);
+
+        span {
+          cursor: pointer;
+          font-size: 14px;
+          &.first {
+            color: #1f2937;
+            &:hover {
+              color: #7e3f25;
+            }
+          }
+          &.last {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(107, 114, 128);
+          }
+          svg {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

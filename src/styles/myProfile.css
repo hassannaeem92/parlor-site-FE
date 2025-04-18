@@ -1,0 +1,61 @@
+.container .row .col-lg-10 .bg-light .row .col-sm-3 {
+  border-right: 1px solid #efefef;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-3 .nav-pills .nav-item .nav-link {
+  color: #039375 !important;
+  border-radius: 0 !important;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-3 .nav-pills .nav-item .nav-link.active {
+  background-color: #039375 !important;
+  color: #FFFFFF !important;
+  border-radius: 0 !important;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .fade {
+  display: none;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .fade.tab-pane.active {
+  display: block !important;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .row label {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .row input:focus, .container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .row textarea:focus {
+  border-color: #009f7f !important;
+  box-shadow: unset !important;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .row .col-lg-12 .image-upload .imageBox {
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+  border-radius: 100%;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .row .col-lg-12 .image-upload .imageBox .icon {
+  top: 0.2rem;
+  right: 0.2rem;
+  font-size: 1.3rem;
+  color: grey;
+  cursor: pointer;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .row .col-lg-12 .image-upload .imageBox img {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .row .col-lg-12 button {
+  background-color: #009f7f;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.7rem 1.7rem;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .row .col-lg-12 button:hover {
+  background-color: #039375;
+}
+.container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .row .col-lg-12 button:focus-visible, .container .row .col-lg-10 .bg-light .row .col-sm-9 .tabContent .row .col-lg-12 button focus {
+  box-shadow: unset !important;
+  outline: unset !important;
+  border: unset !important;
+}
+
+/*# sourceMappingURL=myProfile.css.map */

@@ -1,0 +1,41 @@
+.RefundContent{
+  min-height: calc(100vh - 150px);
+  .container {
+    .row {
+      .col-sm-4{
+        .nav-pills{
+          .nav-item{
+            .nav-link{
+              color: #383838;
+              font-weight: 500;
+              font-size: 16px;
+              display: flex;
+              grid-gap: 1rem;
+              &.active{
+                color: #009f7f;
+                background-color: unset !important;
+                font-weight: 500;
+                font-size: 16px;
+                border-radius: unset !important;
+                border-left: 3px solid #009f7f;
+              }
+            }
+          }
+        }
+      }
+      .col-sm-8{
+        .tab-content{
+          .heading{
+            color: #383838;
+            font-weight: 700;
+          }
+          .content{
+            font-size: 16px;
+            line-height: 2;
+            color: #383838;
+          }
+        }
+      }
+    }
+  }
+}

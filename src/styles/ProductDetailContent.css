@@ -1,0 +1,121 @@
+.ProductDetailContent .titleWrapper .wishlist {
+  width: 40px;
+  height: 40px;
+}
+.ProductDetailContent .ratingWrapper .subTitle {
+  color: #9ca3af;
+  font-weight: 400;
+  font-size: 16px;
+}
+.ProductDetailContent .ratingWrapper .rating {
+  background-color: #7e3f25;
+  color: #ffffff;
+  padding: 4px 1rem;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.ProductDetailContent .content {
+  color: #9ca3af;
+  font-weight: 400;
+  font-size: 14px;
+}
+.ProductDetailContent .price {
+  border-bottom: 1px solid #f1f1f1;
+}
+.ProductDetailContent .price .discountPrice {
+  color: #7e3f25;
+  font-weight: 600 !important;
+}
+.ProductDetailContent .price .actualPrice {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+.ProductDetailContent .price .viewCart .btn {
+  background-color: #009f7f;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.ProductDetailContent .row {
+  padding-bottom: 1rem;
+}
+.ProductDetailContent .row .col-8 .addToCart {
+  background-color: #7e3f25;
+  border-radius: 4px !important;
+  cursor: pointer;
+}
+.ProductDetailContent .row .col-8 .addToCart .Addtext {
+  color: #e5e7eb !important;
+  padding: 0.78rem 14px;
+}
+.ProductDetailContent .row .col-8 .addToCart button {
+  background-color: #e5e7eb !important;
+  color: #000000 !important;
+  padding: 0.8rem 14px;
+}
+.ProductDetailContent .row .col-8 .addToCart button:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.ProductDetailContent .row .col-8 .addToCart button:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.ProductDetailContent .row .col-8 .addToCart button:focus-visible, .ProductDetailContent .row .col-8 .addToCart button:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+.ProductDetailContent .row .col-8 .addToCart:hover {
+  background-color: #7e3f25 !important;
+  color: #ffffff !important;
+}
+.ProductDetailContent .row .col-8 .addToCart:hover .buttonCart {
+  background-color: #7e3f25 !important;
+  color: #ffffff !important;
+}
+.ProductDetailContent .row .col-8 .addToCart:hover .text {
+  background-color: #7e3f25 !important;
+  color: #e5e7eb !important;
+  border-radius: 4px !important;
+}
+.ProductDetailContent .row .col-8 .addToCart .text {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
+}
+.ProductDetailContent .row .col-8 .buttonActive {
+  background-color: #7e3f25 !important;
+  color: #ffffff !important;
+}
+.ProductDetailContent .row .col-8 .buttonActive .buttonCart {
+  background-color: #7e3f25 !important;
+  color: #ffffff !important;
+}
+.ProductDetailContent .row .col-8 .buttonActive .text {
+  background-color: #7e3f25;
+  color: #ffffff !important;
+}
+.ProductDetailContent .row .col-4 .text-center span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9ca3af;
+}
+.ProductDetailContent .category h6 {
+  font-weight: 700;
+}
+.ProductDetailContent .category span {
+  border: 1px solid #9ca3af;
+  color: #000000;
+  padding: 4px 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ProductDetailContent .category span:hover {
+  border: 1px solid #7e3f25;
+  color: #7e3f25;
+}
+
+/*# sourceMappingURL=ProductDetailContent.css.map */

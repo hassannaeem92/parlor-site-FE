@@ -1,0 +1,46 @@
+.ProductSliderInnerWrapper .slick-prev {
+  z-index: 99999 !important;
+  background-color: #efefef;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  left: 0px !important;
+  opacity: 1 !important;
+  transform: rotate(180deg);
+}
+.ProductSliderInnerWrapper .slick-prev::before {
+  content: url("../assets/images/angleRight.svg") !important;
+  color: #000000 !important;
+  width: 50px;
+  height: 50px;
+  opacity: 1 !important;
+}
+.ProductSliderInnerWrapper .slick-prev:hover {
+  background-color: #009f7f !important;
+}
+.ProductSliderInnerWrapper .slick-prev:hover::before {
+  content: url("../assets/images/angleRightColor.svg") !important;
+}
+.ProductSliderInnerWrapper .slick-next {
+  z-index: 99999 !important;
+  right: 0px !important;
+  background-color: #efefef;
+  width: 30px !important;
+  height: 30px !important;
+  opacity: 1 !important;
+  border-radius: 50%;
+}
+.ProductSliderInnerWrapper .slick-next::before {
+  width: 50px;
+  height: 50px;
+  content: url("../assets/images/angleRight.svg") !important;
+  opacity: 1 !important;
+}
+.ProductSliderInnerWrapper .slick-next:hover {
+  background-color: #009f7f !important;
+}
+.ProductSliderInnerWrapper .slick-next:hover::before {
+  content: url("../assets/images/angleRightColor.svg") !important;
+}
+
+/*# sourceMappingURL=ProductSlider.css.map */

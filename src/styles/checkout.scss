@@ -1,0 +1,254 @@
+.checkout {
+  background-color: #f3f4f6;
+  min-height: 100vh;
+  .container {
+    .row {
+      .col-lg-8 {
+        width: 50%;
+        .bg-white {
+          .d-flex {
+            .d-flex {
+              span {
+                &:first-child {
+                  color: #ffffff;
+                  background-color: #7e3f25;
+                  width: 35px;
+                  height: 35px;
+                }
+
+                &:last-child {
+                  color: #000000;
+                  font-weight: 500;
+                  font-size: 18px;
+                }
+              }
+            }
+
+            .update {
+              span {
+                background-color: #f3f4f6;
+                color: #7e3f25;
+                cursor: pointer;
+              }
+            }
+          }
+          .textarea {
+            .form-control {
+              &:focus-visible,
+              &:focus {
+                box-shadow: unset !important;
+                outline-color: unset !important;
+                border-color: #7e3f25 !important;
+              }
+            }
+          }
+          .deliveryTime {
+            label {
+              min-width: 220px;
+              cursor: pointer;
+              input {
+                display: none;
+                &:checked + .label {
+                  border-color: #7e3f25;
+                  background-color: #f3f4f6;
+                  border-radius: 6px;
+                }
+              }
+              .label {
+                border: 1px solid transparent;
+                background-color: #f3f4f6;
+                border-radius: 6px;
+
+                &:hover {
+                  border-color: #7e3f25;
+                }
+
+                .title {
+                  font-weight: 600;
+                  font-size: 16px;
+                  color: #000000;
+                }
+
+                .time {
+                  font-size: 14px;
+                  font-weight: 300;
+                  color: #000000;
+                }
+              }
+            }
+          }
+          .phoneNumber {
+            cursor: not-allowed;
+            padding: 0.6rem 1rem !important;
+            .PhoneInput {
+              input {
+                cursor: not-allowed;
+              }
+            }
+            .PhoneInputCountrySelect {
+              display: contents !important;
+              cursor: not-allowed;
+            }
+            input {
+              border: unset !important;
+              &:focus-visible,
+              &:focus {
+                outline: unset;
+                box-shadow: unset;
+              }
+            }
+          }
+          .billingAddress {
+            cursor: pointer;
+            border: 1px solid #7e3f25;
+            width: 30%;
+            .position-absolute {
+              display: none;
+              .editAddress {
+                .rounded-circle {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+            }
+            .title {
+              font-weight: 700;
+              font-size: 16px;
+            }
+            .text {
+              font-weight: 300;
+              font-size: 14px;
+            }
+            &:hover {
+              .position-absolute {
+                display: block;
+                top: 0.5rem;
+                right: 0.5rem;
+                span {
+                  &:first-child {
+                    background-color: #7e3f25;
+                    color: #ffffff;
+                    font-size: 10px;
+                  }
+                  &:last-child {
+                    background-color: #c00303;
+                    color: #ffffff;
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+
+            @media only screen and (max-width: 992px) {
+              width: 50%;
+            }
+            @media only screen and (max-width: 600px) {
+              width: 100%;
+            }
+          }
+        }
+      }
+      .col-lg-4 {
+        width: 50%;
+        .orderSummary {
+          .button-container {
+            padding: 0 1rem;
+          }
+          .productQuantity {
+            span {
+              font-weight: 700;
+              color: #000000;
+              font-size: 16px;
+            }
+            color: #6b7280;
+            font-size: 15px;
+            font-weight: 300;
+          }
+          .returnToShopping,
+          .confirmPayment {
+            .btn {
+              background-color: #7e3f25;
+              color: white;
+              font-weight: 400;
+              font-size: 16px;
+              text-align: center;
+              padding: 0.7rem;
+              width: 5rem;
+              display: block;
+            }
+          }
+          .returnToShopping {
+            margin-bottom: 1rem;
+          }
+          .total,
+          .subTotal,
+          .estimated {
+            color: #6b7280;
+            font-size: 15px;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.disabled-link {
+  pointer-events: none;
+  background-color: #ccc; /* or any dim color you prefer */
+  color: #666; /* or any dim color you prefer */
+}
+.modal-dialog {
+  .modal-content {
+    padding: 1rem;
+    .modal-body {
+      .form-check-label {
+        input {
+          cursor: pointer;
+        }
+        .form-check-input:checked {
+          background-color: #7e3f25;
+          border-color: #7e3f25;
+          &:focus-visible,
+          &:focus {
+            outline: unset !important;
+            box-shadow: unset !important;
+            border-color: #7e3f25 !important;
+          }
+        }
+        cursor: pointer;
+      }
+
+      .form-label {
+        font-weight: 700;
+        font-size: 14px;
+      }
+      input,
+      textarea {
+        &:focus-visible,
+        &:focus {
+          outline: unset !important;
+          box-shadow: unset !important;
+          border-color: #7e3f25 !important;
+        }
+      }
+      .updateBtn {
+        font-size: 18px;
+        background-color: #7e3f25 !important;
+        color: #ffffff;
+        font-weight: 700;
+        border-color: #7e3f25 !important;
+        &:focus-visible,
+        &:focus {
+          outline: unset !important;
+          box-shadow: unset !important;
+          border-color: #7e3f25 !important;
+        }
+      }
+    }
+  }
+}

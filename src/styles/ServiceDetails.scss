@@ -1,0 +1,671 @@
+:root {
+    --primary-color: #7e3f25;
+    --secondary-color: #9f5d1a;
+    --background-color: #fff;
+    --text-color: #333;
+    --overlay-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--overlay-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Service Overview */
+  .service-overview {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .service-overview h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .service-overview p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Image and Description */
+  .image-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .image-description .description-content {
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .image-description h3 {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+  }
+  
+  .image-description ul {
+    list-style: disc;
+    margin: 20px 0;
+    padding-left: 40px;
+  }
+  
+  .image-description ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Table Section */
+  .massage-table-section {
+    margin: 40px 20px;
+    text-align: center;
+  }
+  
+  .massage-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .massage-table th,
+  .massage-table td {
+    padding: 12px;
+    border: 1px solid var(--secondary-color);
+  }
+  
+  .massage-table th {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .massage-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Call-to-Action */
+  .massage-cta {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .book-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  
+
+
+.floating-buttons {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 1000;
+  width: 250px;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.floating-btn {
+  width: 51px;
+  height: 51px;
+  background-color: #25d366; /* WhatsApp Green */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2),
+              0 0 15px rgba(37, 211, 102, 0.8),
+              0 0 25px rgba(37, 211, 102, 0.5);
+  font-size: 24px;
+  transition: width 0.3s ease, border-radius 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  padding-right: 13px;
+}
+
+
+.floating-btn.phone {
+  background-color: #5A3220;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2),
+              0 0 15px rgba(90, 50, 32, 0.8),
+              0 0 25px rgba(90, 50, 32, 0.5);
+}
+
+/* Number span styling */
+.floating-btn .number {
+  position: absolute;
+  right: 50px;
+  width: max-content;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding-left: 10px;
+}
+
+/* Hover effects for WhatsApp button */
+.floating-btn:hover {
+  width: 200px; /* Perfect for WhatsApp */
+  border-radius: 25px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25),
+              0 0 20px rgba(37, 211, 102, 1),
+              0 0 30px rgba(37, 211, 102, 0.7);
+}
+
+/* Specific hover effects for phone button */
+.floating-btn.phone:hover {
+  width: 250px; /* Larger width for phone button */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25),
+              0 0 20px rgba(90, 50, 32, 1),
+              0 0 30px rgba(90, 50, 32, 0.7);
+}
+
+.floating-btn:hover .number {
+  opacity: 1;
+}
+
+
+// form Csss/
+
+
+// .appointment-form-section {
+//   padding: 40px 20px;
+//   background: linear-gradient(135deg, rgba(255, 192, 203, 0.2), rgba(255, 255, 255, 0.8));
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 40px; /* Space between image and form */
+//   flex-wrap: wrap; /* Allow wrapping on smaller screens */
+// }
+
+// .form-image {
+//   flex: 1;
+//   max-width: 300px; /* Adjust based on your image size */
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .therapist-image {
+//   max-width: 100%;
+//   height: auto;
+//   border-radius: 10px;
+// }
+
+// .form-content {
+//   flex: 1;
+//   max-width: 400px; /* Adjust to control form width */
+//   padding: 20px;
+// }
+
+// .form-content h2 {
+//   font-size: 24px;
+//   margin-bottom: 20px;
+//   color: #333;
+// }
+
+// .form-group {
+//   margin-bottom: 20px;
+// }
+
+// .form-input,
+// .form-textarea {
+//   width: 100%;
+//   padding: 10px;
+//   border: 1px solid #ddd;
+//   border-radius: 5px;
+//   font-size: 16px;
+// }
+
+// .form-textarea {
+//   height: 100px;
+//   resize: none;
+// }
+
+// .captcha-group {
+//   display: flex;
+//   align-items: center;
+//   gap: 10px;
+// }
+
+// .error-message {
+//   color: red;
+//   font-size: 14px;
+//   margin-top: 5px;
+// }
+
+// .submit-btn {
+//   background-color: #d81b60;
+//   color: #fff;
+//   padding: 10px 20px;
+//   border: none;
+//   border-radius: 5px;
+//   font-size: 16px;
+//   cursor: pointer;
+//   transition: background-color 0.3s;
+// }
+
+// .submit-btn:hover {
+//   background-color: #c2185b;
+// }
+
+// .submit-btn:disabled {
+//   background-color: #ccc;
+//   cursor: not-allowed;
+// }
+
+// /* Responsive Design */
+// @media (max-width: 768px) {
+//   .appointment-form-section {
+//     flex-direction: column;
+//     gap: 60px;
+//   }
+
+//   .form-image {
+//     max-width: 100%;
+//   }
+
+//   .form-content {
+//     max-width: 100%;
+//     padding-left: 90px;
+//   }
+// }
+
+/* Ensure consistent box-sizing */
+
+
+
+
+
+
+// * {
+//   box-sizing: border-box;
+// }
+
+// .appointment-form-section {
+//   padding: 40px 20px;
+//   background: linear-gradient(135deg, rgba(255, 192, 203, 0.2), rgba(255, 255, 255, 0.8));
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 20px; /* Adjusted back to 20px to match the original image */
+//   flex-wrap: wrap;
+// }
+
+// .form-image {
+//   flex: 1;
+//   max-width: 250px; /* Matches the original image size */
+//   min-width: 250px; /* Ensures the image container doesn't collapse */
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .therapist-image {
+//   max-width: 100%;
+//   height: auto;
+//   border-radius: 10px;
+//   display: block; /* Ensure the image is visible */
+// }
+
+// .form-content {
+//   flex: 1;
+//   max-width: 350px; /* Adjusted to match the original form width */
+//   min-width: 300px; /* Ensures the form doesn't collapse */
+//   padding: 20px;
+// }
+
+// .form-content h2 {
+//   font-size: 24px;
+//   margin-bottom: 20px;
+//   color: #333;
+// }
+
+// .form-group {
+//   margin-bottom: 20px;
+// }
+
+// .form-input,
+// .form-textarea {
+//   width: 170%;
+//   padding: 10px;
+//   border: 1px solid #ddd;
+//   border-radius: 5px;
+//   font-size: 16px;
+// }
+
+// .form-textarea {
+//   height: 100px;
+//   resize: none;
+// }
+
+// .captcha-group {
+//   display: flex;
+//   align-items: center;
+//   gap: 10px;
+// }
+
+// .error-message {
+//   color: red;
+//   font-size: 14px;
+//   margin-top: 5px;
+// }
+
+// .submit-btn {
+//   background-color: #9f5d1a;
+//   color: #fff;
+//   padding: 10px 20px;
+//   border: none;
+//   border-radius: 5px;
+//   font-size: 16px;
+//   cursor: pointer;
+//   transition: background-color 0.3s;
+// }
+
+// .submit-btn:hover {
+//   background-color: #7e3f25;
+// }
+
+// .submit-btn:disabled {
+//   background-color: #ccc;
+//   cursor: not-allowed;
+// }
+
+// /* Responsive Design */
+// @media (max-width: 768px) {
+//   .appointment-form-section {
+//     flex-direction: column;
+//     gap: 40px;
+//   }
+
+//   .form-image {
+//     max-width: 100%;
+//   }
+
+//   .form-content {
+//     max-width: 100%;
+//     padding: 20px;
+//     // margin-left: 400px;
+//   }
+// }
+
+
+/* Ensure consistent box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Appointment Form Section */
+.appointment-form-section {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, rgba(255, 192, 203, 0.2), rgba(255, 255, 255, 0.8));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-image {
+  flex: 1;
+  max-width: 300px;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.therapist-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.form-content {
+  flex: 1;
+  max-width: 350px;
+  min-width: 300px;
+  padding: 20px;
+  margin-left: 180px !important
+}
+
+.form-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.form-control {
+  // width: 150%;
+  padding: 10px;
+  border: none; /* Remove border to match the screenshot */
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f5f5f5; /* Light grayish-pink background */
+}
+
+.form-control:focus {
+  outline: none;
+  background-color: #e8e8e8; /* Slightly darker on focus */
+}
+
+.form-control::placeholder {
+  color: #999; /* Light gray placeholder text */
+  font-size: 16px;
+}
+
+textarea.form-control {
+  height: 100px;
+  resize: none;
+}
+
+.captcha-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.captcha-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.captcha-group input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.recaptcha-badge {
+  font-size: 12px;
+  color: #666;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.form-actions {
+  text-align: left; /* Align button to the right to match the screenshot */
+}
+
+.submit-button {
+  background-color: #9f5d1a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #7e3f25;
+}
+
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+
+// @media (max-width: 768px) {
+//   .appointment-form-section {
+//     flex-direction: column;
+//     gap: 40px;
+//   }
+
+//   .form-image {
+//     max-width: 100%;
+//   }
+
+//   .form-content {
+//     max-width: 100%;
+//     padding: 20px;
+//   }
+
+//   .form-actions {
+//     text-align: center; /* Center the button on mobile */
+//   }
+// }
+
+@media (max-width: 1024px) {
+  .form-content {
+    margin-left: auto !important; 
+    margin-right: auto !important; /* Center content on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .appointment-form-section {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .form-content {
+    max-width: 100%;
+    padding: 20px;
+    margin-left: 0 !important; /* Remove large margin on small screens */
+  }
+  
+  .form-control {
+    width: 100%; /* Ensure inputs fit within the container */
+  }
+}
+
+@media (max-width: 480px) {
+  .appointment-form-section {
+    padding: 20px;
+  }
+
+  .form-content h2 {
+    font-size: 20px;
+  }
+
+  .form-control {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .submit-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

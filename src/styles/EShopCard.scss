@@ -1,0 +1,118 @@
+.EShopCard {
+  .bg-white {
+    position: relative; // Ensure the parent is positioned relative
+    .image {
+      img {
+        width: 100%; // Use width 100% to fill the container
+        height: auto; // Allow height to adjust automatically
+        object-fit: cover; // Cover the area without distortion
+      }
+    }
+    .tag {
+      background-color: #009f7f;
+      position: absolute; // Position the tag absolutely
+      //top: 10px; // Adjust this value as needed
+      right: 10px; // Adjust this value as needed
+      border-radius: 4px;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 14px;
+      padding: 2px 0.6rem;
+      z-index: 20; // Ensure it appears above other elements
+    }
+  
+    .price {
+      span {
+        &.discountPrice {
+          font-size: 1rem;
+          line-height: 1.5rem;
+          color: #009f7f;
+          font-weight: 600;
+        }
+
+        &.originalPrice {
+          font-size: 1rem;
+          line-height: 1.5rem;
+          color: #9ca3af;
+          font-weight: 400;
+          text-decoration: line-through;
+          margin-left: 0.5rem;
+        }
+
+        &.regularPrice {
+          font-size: 1rem;
+          line-height: 1.5rem;
+          color: #000000;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .title {
+      color: gray;
+      font-weight: 300;
+      font-size: 14px;
+    }
+
+    .addToCart {
+      background-color: #f3f4f6;
+      border-radius: 4px;
+      cursor: pointer;
+
+      div {
+        color: #000000 !important;
+      }
+
+      button {
+        background-color: #e5e7eb !important;
+        color: #000000 !important;
+        padding: 4px 12px;
+
+        &:first-child {
+          border-top-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+        }
+
+        &:last-child {
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+        }
+      }
+
+      &:hover {
+        background-color: #009f7f !important;
+        color: #ffffff !important;
+        border-radius: 4px;
+
+        .buttonCart {
+          background-color: #7e3f25 !important;
+          color: #ffffff !important;
+        }
+
+        .text {
+          background-color: #009f7f !important;
+          color: #ffffff !important;
+        }
+      }
+
+      .text {
+        color: #ffffff;
+        font-size: 14px;
+      }
+    }
+    .buttonActive {
+      background-color: #7e3f25 !important;
+      color: #ffffff !important;
+
+      .buttonCart {
+        background-color: #7e3f25 !important;
+        color: #ffffff !important;
+      }
+
+      .text {
+        background-color: #009f7f;
+        color: #ffffff !important;
+      }
+    }
+  }
+}

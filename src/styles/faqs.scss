@@ -1,0 +1,399 @@
+// .singleFaqs {
+//   .container {
+//     .accordion {
+
+
+//       .accordion-item {
+//         margin-bottom: 1rem;
+//         border-radius: 5px;
+//         border: 1px solid #e5e7eb;
+
+//         .accordion-header {
+//           button {
+//             background-color: #ffffff !important;
+//             box-shadow: unset;
+//             border-radius: 8px;
+//             font-family: polar-regular, sans-serif;
+//             font-weight: 600;
+//             font-size: 1rem;
+//             color: #000000;
+//             &::after{
+//               background-image: unset !important;
+//               transition: unset !important;
+//               transform: unset !important;
+//             }
+//             &.collapsed::after {
+//               content: "\002B";
+//             }
+//             &:not(.collapsed)::after {
+//               content: "\2212";
+//             }
+
+//           }
+//         }
+
+//         .accordion-collapse {
+//           .accordion-body {
+//             text-align: left;
+//             font-family: polar-regular, sans-serif;
+//             color: #323232;
+//             //border-top: 1px solid #6B6B6B;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+/* General Layout */
+
+// .about-page {
+//   font-family: "Poppins", sans-serif;
+//   color: #6a1b4d;
+// }
+
+// /* Hero Section */
+// .about-hero {
+//   background: url("/images/about-hero.jpg") center/cover no-repeat;
+//   padding: 100px 20px;
+//   position: relative;
+//   color: #fff;
+//   text-align: center;
+// }
+
+// .about-hero .hero-title {
+//   font-size: 3rem;
+//   font-weight: bold;
+//   margin-bottom: 1rem;
+// }
+
+// .about-hero .hero-subtitle {
+//   font-size: 1.2rem;
+// }
+
+// .about-hero .hero-overlay {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background: rgba(0, 0, 0, 0.5);
+//   z-index: -1;
+// }
+
+// /* Section Titles */
+// .section-title {
+//   font-size: 2rem;
+//   font-weight: bold;
+//   color: #e91e63;
+//   margin-bottom: 20px;
+//   text-align: center;
+// }
+
+// /* Services Section */
+// .about-services {
+//   margin: 50px 0;
+// }
+
+// .services-grid {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+//   gap: 20px;
+// }
+
+// .service-item {
+//   text-align: center;
+//   padding: 20px;
+//   border: 1px solid #fee2f8;
+//   border-radius: 10px;
+//   background-color: #fff;
+//   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+//   transition: transform 0.3s ease, box-shadow 0.3s ease;
+// }
+
+// .service-item:hover {
+//   transform: translateY(-10px);
+//   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+// }
+
+// .service-img {
+//   width: 100%;
+//   border-radius: 10px;
+//   margin-bottom: 15px;
+// }
+
+// /* Team Section */
+// .about-team {
+//   margin: 50px 0;
+// }
+
+// .team-grid {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+//   gap: 20px;
+//   text-align: center;
+// }
+
+// .team-member {
+//   background-color: #fff;
+//   padding: 20px;
+//   border-radius: 10px;
+//   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+// }
+
+// .team-img {
+//   width: 100%;
+//   border-radius: 50%;
+//   margin-bottom: 15px;
+// }
+
+// /* Testimonials Section */
+// .about-testimonials {
+//   background-color: #fee2f8;
+//   padding: 50px 20px;
+//   margin: 50px 0;
+// }
+
+// .testimonials-container {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 20px;
+// }
+
+// .testimonial {
+//   text-align: center;
+//   background-color: #fff;
+//   padding: 20px;
+//   border-radius: 10px;
+//   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+// }
+
+// .testimonial h3 {
+//   margin-top: 10px;
+//   color: #e91e63;
+// }
+
+
+/* About Page Container */
+.about-container {
+  font-family: 'Arial', sans-serif;
+  // padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+/* Header Section */
+.about-header {
+  // background-color: #d2b091;
+  background: linear-gradient(135deg, #333, #9f5d1a, #333);
+
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.about-header .header-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about-header .header-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* First Section - Image and Description */
+.about-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+  gap: 20rem
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px; /* Adjust the max width for the image */
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-description {
+  max-width: 500px;
+  padding-left: 2rem;
+}
+
+.about-description h2 {
+  font-size: 2rem;
+  color: #7e3f25;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-description p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Specialty Section */
+.specialty-section {
+  background-color: #eaeaea;
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+}
+
+.specialty-heading h3 {
+  color: #7e3f25;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.specialty-description p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Journey Section with Two Columns */
+.journey-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.journey-description {
+  max-width: 50%;
+}
+
+.journey-description h3 {
+  color: #7e3f25;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.journey-description p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.journey-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-description {
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .journey-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .journey-description, .journey-image {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .journey-image img {
+    width: 100%;
+  }
+}
+
+
+
+.floating-buttons {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 1000;
+  width: 200px;
+  align-items: flex-end;
+}
+
+.floating-btn {
+  width: 51px;
+  height: 51px;
+  background-color: #25d366; /* WhatsApp Green */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2),
+              0 0 15px rgba(37, 211, 102, 0.8),
+              0 0 25px rgba(37, 211, 102, 0.5);
+  font-size: 24px;
+  transition: width 0.3s ease, border-radius 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  padding-right: 13px;
+}
+
+.floating-btn.phone {
+  background-color: #5A3220;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2),
+              0 0 15px rgba(90, 50, 32, 0.8),
+              0 0 25px rgba(90, 50, 32, 0.5);
+}
+
+/* Number span styling */
+.floating-btn .number {
+  position: absolute;
+  right: 50px;
+  width: max-content;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding-left: 10px;
+}
+
+/* Hover effects for WhatsApp button */
+.floating-btn:hover {
+  width: 200px; /* Perfect for WhatsApp */
+  border-radius: 25px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25),
+              0 0 20px rgba(37, 211, 102, 1),
+              0 0 30px rgba(37, 211, 102, 0.7);
+}
+
+/* Specific hover effects for phone button */
+.floating-btn.phone:hover {
+  width: 250px; /* Larger width for phone button */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25),
+              0 0 20px rgba(90, 50, 32, 1),
+              0 0 30px rgba(90, 50, 32, 0.7);
+}
+
+.floating-btn:hover .number {
+  opacity: 1;
+}

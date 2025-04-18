@@ -1,0 +1,84 @@
+0.EShopCard .bg-white .tag {
+  background-color: #009f7f;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 2px 0.6rem;
+}
+.EShopCard .bg-white .image img {
+  min-height: 200px;
+  max-height: 200px;
+  object-fit: contain;
+}
+.EShopCard .bg-white .price span:first-child {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #000000;
+  font-weight: 600;
+}
+.EShopCard .bg-white .price span:last-child {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #9ca3af;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.EShopCard .bg-white .title {
+  color: #9ca3af;
+  font-weight: 300;
+  font-size: 14px;
+}
+.EShopCard .bg-white .addToCart {
+  background-color: #f3f4f6;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.EShopCard .bg-white .addToCart div {
+  color: #000000 !important;
+}
+.EShopCard .bg-white .addToCart button {
+  background-color: #e5e7eb !important;
+  color: #000000 !important;
+  padding: 4px 12px;
+}
+.EShopCard .bg-white .addToCart button:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.EShopCard .bg-white .addToCart button:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.EShopCard .bg-white .addToCart:hover {
+  background-color: #009f7f !important;
+  color: #ffffff !important;
+}
+.EShopCard .bg-white .addToCart:hover .buttonCart {
+  background-color: #7e3f25 !important;
+  color: #ffffff !important;
+}
+.EShopCard .bg-white .addToCart:hover .text {
+  background-color: #009f7f !important;
+  color: #ffffff !important;
+}
+.EShopCard .bg-white .addToCart .text {
+  color: #ffffff;
+  font-size: 14px;
+}
+.EShopCard .bg-white .buttonActive {
+  background-color: #7e3f25 !important;
+  color: #ffffff !important;
+}
+.EShopCard .bg-white .buttonActive .buttonCart {
+  background-color: #7e3f25 !important;
+  color: #ffffff !important;
+}
+.EShopCard .bg-white .buttonActive .text {
+  background-color: #009f7f;
+  color: #ffffff !important;
+}
+
+/*# sourceMappingURL=EShopCard.css.map */

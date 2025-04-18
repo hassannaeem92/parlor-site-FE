@@ -1,0 +1,29 @@
+.shopCard {
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  padding: 1.2rem;
+}
+.shopCard .title {
+  font-weight: 500;
+}
+.shopCard .image img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.shopCard .location {
+  font-size: 12px;
+  color: rgb(107, 114, 128);
+  font-weight: 300;
+}
+.shopCard .location .icon {
+  width: 10px;
+  height: 10px;
+}
+.shopCard .location .icon svg {
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=shopCard.css.map */

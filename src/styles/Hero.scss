@@ -1,0 +1,606 @@
+
+// .HeroWrapper {
+//   background-image: url("../assets/images/beauty-hero1.png");
+//   background-size: cover;
+//   min-height: 0;
+//   height: 100vh;
+//   background-repeat: no-repeat;
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-start;
+//   padding: 2rem;
+
+//   .col-lg-6 {
+//     max-width: 600px;
+//     margin-left: 0;
+//     margin-right: auto; /* Moves content to the left */
+//     text-align: left;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     gap: 1rem;
+
+//     .h1 {
+//       font-size: 2.5rem;
+//       color: #7e3f25;
+//       font-family: "Cursive", sans-serif;
+//       font-weight: bold;
+//     }
+
+//     .title {
+//       font-size: 1rem;
+//       color: #7e3f25;
+//       font-family: "Sans-serif", sans-serif;
+//     }
+
+//     .searchWrapper {
+//       background-color: #ffffff;
+//       border: 1px solid #f3f4f6;
+//       border-radius: 30px;
+//       display: flex;
+//       align-items: center;
+//       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+//       input {
+//         border: none;
+//         border-radius: 30px 0 0 30px;
+//         padding: 1rem;
+//         font-size: 1rem;
+//         flex: 1;
+//       }
+
+//       button {
+//         background-color: #7e3f25;
+//         border: none; /* Removes border */
+//         color: #ffffff;
+//         padding: 0.7rem 1.5rem;
+//         font-weight: 600;
+//         border-radius: 0 30px 30px 0;
+//         transition: background-color 0.3s ease;
+
+//         /* Removes the outline and border on focus (optional) */
+//         outline: none;
+//         box-shadow: none;
+
+//         &:hover {
+//           background-color: #662f1b;
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+
+// New Code 
+
+
+
+
+// .HeroWrapper {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   padding: 2rem;
+//   background-image: url("../assets/images/hero-flower.jpg");
+//   background-size: cover;
+//   background-position: center;
+//   min-height: 100vh;
+//   position: relative;
+// }
+
+// .text-container-hero {
+//   max-width: 600px;
+//   text-align: left;
+// }
+
+// .hero-title {
+//   font-size: 2.5rem;
+//   color: #7e3f25;
+//   font-family: "Cursive", sans-serif;
+//   font-weight: bold;
+// }
+
+// .hero-subtitle {
+//   font-size: 1rem;
+//   color: #7e3f25;
+//   font-family: "Sans-serif", sans-serif;
+// }
+
+// .slider-container-hero {
+//   width: 45%;
+//   position: relative;
+//   top: -40px; /* Moves the slider up */
+// }
+
+// .slider-item {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .slider-image {
+//   width: 90%;
+//   height: 400px;
+//   background-size: cover;
+//   background-position: center;
+//   border-radius: 50px;
+//   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  
+//   /* Unique Shape for Image */
+//   clip-path: ellipse(75% 50% at center);
+// }
+
+
+// old code 
+
+// .HeroWrapper {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   padding: 3rem; /* Increased padding */
+//   background-image: url("../assets/images/hero-flower.jpg");
+//   background-size: cover;
+//   background-position: center;
+//   min-height: 100vh;
+//   position: relative;
+//   overflow: hidden; /* Prevents image overflow issues */
+// }
+
+// .text-container-hero {
+//   max-width: 50%; /* Adjusted width */
+//   text-align: left;
+//   z-index: 1; /* Ensure text is above the overlay */
+// }
+
+// .hero-title {
+//   font-size: 3rem; /* Increased font size */
+//   color: #7e3f25;
+//   font-family: "Cursive", sans-serif;
+//   font-weight: bold;
+//   margin-bottom: 1rem; /* Added margin */
+// }
+
+// .hero-subtitle {
+//   font-size: 1.2rem; /* Increased font size */
+//   color: #7e3f25;
+//   font-family: "Sans-serif", sans-serif;
+//   line-height: 1.6; /* Improved readability */
+// }
+
+// .slider-container-hero {
+//   width: 45%;
+//   position: relative;
+//   /* top: -40px;  Removed or adjust as needed */
+//   z-index: 1; /* Ensure slider is above the overlay */
+// }
+
+// .slider-item {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .slider-image {
+//   width: 100%; /* Full width of container */
+//   height: 500px; /* Adjusted height */
+//   background-size: cover;
+//   background-position: center;
+//   border-radius: 20px; /* Less extreme rounding */
+//   // box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); /* Softer shadow */
+//   object-fit: cover; /* Ensures image covers the container */
+//   clip-path: none; /* Removed the ellipse clip-path */
+//   transition: transform 0.3s ease; /* For hover effect */
+// }
+
+// .slider-image:hover {
+//   transform: scale(1.05); /* Subtle zoom on hover */
+// }
+
+// /* Slick Slider Customizations (add these to your CSS) */
+// .slick-dots {
+//   bottom: 20px; /* Position dots */
+// }
+
+// .slick-dots li button:before {
+//   font-size: 10px; /* Adjust dot size */
+//   color: #7e3f25; /* Dot color */
+// }
+
+// .slick-dots li.slick-active button:before {
+//   color: #d1b000; /* Active dot color */
+// }
+
+// .overlay { /* Added an overlay for visual interest */
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: rgba(255, 255, 255, 0.2); /* Adjust opacity */
+//   z-index: 0; /* Below the text and slider */
+// }
+
+// /* Responsive adjustments (example) */
+// @media (max-width: 768px) {
+//   .HeroWrapper {
+//     flex-direction: column; /* Stack elements vertically */
+//     align-items: center;
+//     padding: 2rem;
+//   }
+//   .text-container-hero {
+//     width: 90%;
+//     text-align: center;
+//     margin-bottom: 2rem;
+//   }
+//   .slider-container-hero {
+//     width: 90%;
+//   }
+//   .slider-image {
+//     height: 400px; /* Adjust height for smaller screens */
+//   }
+//   .hero-title {
+//     font-size: 2.2rem;
+//   }
+//   .hero-subtitle {
+//     font-size: 1rem;
+//   }
+// }
+
+
+/* Hero Section */
+
+// .slider-container-hero {
+//   width: 80%;
+//   max-width: 500px;
+//   height: 414px;
+// }
+
+
+
+
+// .slider-item {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 100%;
+//   min-height: 400px; /* Ensure it has a height */
+// }
+
+// .slider-image {
+//   width: 100%;
+//   height: 100%;
+//   min-height: 400px; /* Ensure it has a height */
+//   background-size: cover;
+//   background-position: center;
+//   // border-radius: 50%;
+// }
+
+// .HeroWrapper {
+//   display: flex;
+//   width: 100%;
+//   height: 600px; /* Adjust height as needed */
+// }
+
+// /* Left Side - Text Section */
+// .hero-left {
+//   flex: 1;
+//   background-image: url("../assets/images/hero-left.jpg"); /* Left side background */
+//   background-size: cover;
+//   background-position: center;
+//   color: white;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   padding: 50px;
+// }
+
+// .hero-title {
+//   font-size: 5rem;
+//   font-family: "Dancing Script", cursive; /* Signature font */
+//   font-weight: 100;
+// }
+
+// .hero-subtitle {
+//   font-size: 1.5rem;
+//   font-family: "Poppins", sans-serif;
+// }
+
+// /* Right Side - Slider Section */
+// .hero-right {
+//   flex: 1;
+//   background-image: url("../assets/images/hero-right.jpg"); /* Right side background */
+//   background-size: cover;
+//   background-position: center;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+
+// .slider-container-hero {
+//   width: 90%;
+//   max-width: 550px;
+//   height: 350px;
+// }
+
+// .slider-item {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 100%;
+//   height: 450px;
+// }
+
+// .slider-image {
+//   width: 70%;
+//   height: 70%;
+//   background-size: cover;
+//   background-position: center;
+//   border: 10px solid #fff; /* Polaroid frame */
+//   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+//   transform: rotate(-5deg); /* Slight tilt */
+//   transition: transform 0.5s ease;
+// }
+
+// /* Straighten and scale on active slide */
+// .slick-slide.slick-active .slider-image {
+//   transform: rotate(0deg) scale(1.1); /* Straightens and zooms slightly */
+// }
+
+
+
+/* HeroWrapper and other existing styles remain unchanged */
+// .HeroWrapper {
+//   display: flex;
+//   width: 100%;
+//   height: 600px; /* Adjust height as needed */
+// }
+
+// /* Left Side - Text Section */
+// .hero-left {
+//   flex: 1;
+//   background-image: url("../assets/images/hero-left.jpg");
+//   background-size: cover;
+//   background-position: center;
+//   color: white;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   padding: 50px;
+// }
+
+// .hero-title {
+//   font-size: 5rem;
+//   font-family: "Dancing Script", cursive;
+//   font-weight: 100;
+// }
+
+// .hero-subtitle {
+//   font-size: 1.5rem;
+//   font-family: "Poppins", sans-serif;
+// }
+
+// /* Right Side - Slider Section */
+// .hero-right {
+//   flex: 1;
+//   background-image: url("../assets/images/hero-right.jpg");
+//   background-size: cover;
+//   background-position: center;
+//   display: flex;
+//   flex-direction: column; /* Changed to column to stack slider and booking */
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .slider-container-hero {
+//   width: 90%;
+//   max-width: 550px;
+//   height: 350px;
+// }
+
+// .slider-item {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 100%;
+//   height: 450px;
+// }
+
+// .slider-image {
+//   width: 70%;
+//   height: 70%;
+//   background-size: cover;
+//   background-position: center;
+//   border: 10px solid #fff;
+//   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+//   transform: rotate(-5deg);
+//   transition: transform 0.5s ease;
+// }
+
+// .slick-slide.slick-active .slider-image {
+//   transform: rotate(0deg) scale(1.1);
+// }
+
+// /* New Booking Section Styles */
+// .booking-section {
+//   margin-top: 25px; /* Space between slider and booking text */
+//   text-align: center;
+// }
+
+// .booking-title {
+//   font-size: 2.5rem; /* Elegant size */
+//   font-family: "Dancing Script", cursive; /* Matches hero-title for consistency */
+//   color: #9f5d1a; /* Matches hero-title color */
+//   font-weight: 700; /* Bold for emphasis */
+//   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for elegance */
+//   transition: transform 0.3s ease; /* Smooth hover effect */
+// }
+
+// .booking-title:hover {
+//   transform: scale(1.05); /* Slight zoom on hover for interactivity */
+// }
+
+/* HeroWrapper and other existing styles remain unchanged */
+.HeroWrapper {
+  display: flex;
+  width: 100%;
+  height: 600px; /* Adjust height as needed */
+}
+
+/* Left Side - Text Section */
+.hero-left {
+  flex: 1;
+  background-image: url("../assets/images/hero-left.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: 100;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Right Side - Slider Section */
+.hero-right {
+  flex: 1;
+  background-image: url("../assets/images/hero-right.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-container-hero {
+  width: 90%;
+  max-width: 550px;
+  height: 350px;
+  cursor: pointer;
+}
+
+.slider-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 450px;
+}
+
+.slider-image {
+  width: 70%;
+  height: 70%;
+  background-size: cover;
+  background-position: center;
+  border: 10px solid #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: rotate(-5deg);
+  transition: transform 0.5s ease;
+}
+
+.slick-slide.slick-active .slider-image {
+  transform: rotate(0deg) scale(1.1);
+}
+
+
+.booking-number {
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+  color: #9f5d1a;
+  font-weight: 600;
+  margin-top: 8px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Booking Section Styles */
+.booking-section {
+  margin-top: 25px; /* Space between slider and booking text */
+  margin-right: 103px; /* Shifts it slightly to the left */
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.booking-title {
+  font-size: 2.5rem; /* Elegant size */
+  font-family: "Dancing Script", cursive; /* Matches hero-title for consistency */
+  color: #9f5d1a; /* Matches hero-title color */
+  font-weight: 700; /* Bold for emphasis */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for elegance */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+  animation: glow 2s ease-in-out infinite; /* Glowing effect */
+  cursor: pointer; /* Ensures pointer on hover */
+}
+
+.booking-title a {
+  text-decoration: none; /* Removes underline from the link */
+  color: inherit; /* Ensures the link inherits the parent color (#9f5d1a) */
+  display: block; /* Ensures the link fills the container */
+}
+
+.booking-title:hover {
+  transform: scale(1.05); /* Slight zoom on hover for interactivity */
+}
+
+/* Glowing Animation */
+@keyframes glow {
+  0% {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0 0 10px rgba(159, 93, 26, 0.5);
+  }
+  50% {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0 0 20px rgba(159, 93, 26, 0.8), 0 0 30px rgba(159, 93, 26, 0.6);
+  }
+  100% {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0 0 10px rgba(159, 93, 26, 0.5);
+  }
+}
+
+
+// Style Bwlow hero section 
+
+.salon-section {
+  background-color: #fff; /* Lightest pink */
+  padding: 50px 20px; /* Vertical and horizontal padding */
+  text-align: center; /* Center-align content */
+  width: 100%; /* Full width */
+}
+
+.salon-title {
+  font-family: "Nunito", sans-serif; /* Matches your hero section */
+  font-size: 3rem; /* Elegant and prominent */
+  color: #9f5d1a; /* Matches your theme */
+  font-weight: 700; /* Bold for emphasis */
+  margin-bottom: 20px; /* Space between text and button */
+  margin-top: 40px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.book-now-btn {
+  padding: 12px 30px; /* Button size */
+  background-color: #9f5d1a; /* Matches your theme */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  font-family: "Nunito", sans-serif; /* Matches your subtitle font */
+  font-size: 1.2rem; /* Readable size */
+  cursor: pointer; /* Pointer on hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.book-now-btn:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}

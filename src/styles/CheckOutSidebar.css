@@ -1,0 +1,87 @@
+.sideBarOffCanvasStyle .cartBtn {
+  background-color: #7e3f25;
+  border-color: #7e3f25;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.sideBarOffCanvasStyle .cartBtn:focus-visible {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+.sideBarOffCanvasStyle .cartBtn span:last-child {
+  padding: 5px 1rem;
+  color: #7e3f25;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.offcanvas {
+  padding: 10px;
+}
+.offcanvas .SideHeader {
+  border-bottom: 1px solid #eeeded;
+}
+.offcanvas .SideHeader svg {
+  color: #7e3f25;
+}
+.offcanvas .SideHeader span {
+  color: #7e3f25;
+  font-weight: 700;
+  font-size: 14px;
+}
+.offcanvas .Sidebody .singleItem {
+  border-bottom: 1px solid #eeeded;
+}
+.offcanvas .Sidebody .singleItem .first .bg-light {
+  background-color: #f3f4f6 !important;
+}
+.offcanvas .Sidebody .singleItem .first .bg-light button {
+  background-color: unset !important;
+}
+.offcanvas .Sidebody .singleItem .first .image {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+.offcanvas .Sidebody .singleItem .first .mainArea .title {
+  font-weight: 700;
+  font-size: 14px;
+}
+.offcanvas .Sidebody .singleItem .first .mainArea .price {
+  color: #7e3f25;
+  font-weight: 600;
+  font-size: 16px;
+}
+.offcanvas .Sidebody .singleItem .first .mainArea .subTitle {
+  color: #6b7280;
+  font-weight: 300;
+  font-size: 14px;
+}
+.offcanvas .Sidebody .singleItem .second span {
+  background-color: #eeeded;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.offcanvas .Sidebody .singleItem .second span svg {
+  color: #6b7280;
+}
+.offcanvas .Sidebody .singleItem .second span:hover svg {
+  color: #c00202;
+}
+.offcanvas .checkoutBtn .btn {
+  background-color: #7e3f25;
+  color: #ffffff;
+  padding: 4px;
+}
+.offcanvas .checkoutBtn .btn span:first-child {
+  font-weight: 700;
+  padding-left: 0.5rem;
+}
+.offcanvas .checkoutBtn .btn span:last-child {
+  font-weight: 700;
+  color: #7e3f25;
+  padding: 0.6rem 1rem;
+}
+
+/*# sourceMappingURL=CheckOutSidebar.css.map */

@@ -1,0 +1,115 @@
+.sideBarOffCanvasStyle {
+  .cartBtn {
+    background-color: #4b4d3b;
+    border-color: #4b4d3b;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+
+    &:focus-visible {
+      outline: unset !important;
+      box-shadow: unset !important;
+    }
+
+    span {
+      &:last-child {
+        padding: 5px 1rem;
+        color: #7e3f25;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.offcanvas {
+  padding: 10px;
+  .SideHeader{
+    border-bottom: 1px solid #eeeded;
+    svg{
+      color: #7e3f25;
+    }
+    span{
+      color: #7e3f25;
+      font-weight: 700;
+      font-size: 14px;
+    }
+  }
+
+  .Sidebody {
+    .singleItem {
+      border-bottom: 1px solid #eeeded;
+      .first {
+        .bg-light {
+          background-color: #f3f4f6 !important;
+
+          button {
+            background-color: unset !important;
+          }
+        }
+
+        .image {
+          width: 70px;
+          height: 70px;
+          object-fit: contain;
+        }
+
+        .mainArea {
+          .title {
+            font-weight: 700;
+            font-size: 14px;
+
+          }
+
+          .price {
+            color: #7e3f25;
+            font-weight: 600;
+            font-size: 16px;
+          }
+
+          .subTitle {
+            color: #6b7280;
+            font-weight: 300;
+            font-size: 14px;
+          }
+        }
+
+      }
+      .second{
+        span{
+          background-color: #eeeded;
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+          svg{
+            color: #6b7280;
+          }
+          &:hover{
+            svg{
+              color: #c00202;
+            }
+          }
+        }
+
+      }
+    }
+  }
+  .checkoutBtn{
+    .btn{
+      background-color: #7e3f25;
+      color: #ffffff;
+      padding: 4px;
+      span{
+        &:first-child{
+          font-weight: 700;
+          padding-left: 0.5rem;
+        }
+        &:last-child{
+          font-weight: 700;
+          color: #7e3f25;
+          padding: 0.6rem 1rem;
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.offersWrapper {
+  .container {
+    .row {
+      .col-lg-3 {
+        .offerCard {
+          .p-3 {
+            .title {
+              border-radius: 8px;
+              min-height: 150px;
+              &.lightBlue {
+                background-color: #4a92f7;
+              }
+              &.lightCamel {
+                background-color: #faaa6e;
+              }
+              &.skyBlue {
+                background-color: #00bcd6;
+              }
+              &.limeLight {
+                background-color: #46b3ac;
+              }
+              &.lightPurple {
+                background-color: #3f5ecd;
+              }
+              &.purple {
+                background-color: #8e71fe;
+              }
+              &.babyPink {
+                background-color: #f99d98;
+              }
+              &.redShade {
+                background-color: #ed6850;
+              }
+              &.lightPink {
+                background-color: #f06293;
+              }
+              &.lightPrimary {
+                background-color: #f2c32f;
+              }
+              .m-3 {
+                border: 1px dashed #ffffff;
+                border-radius: 8px;
+                min-height: 140px;
+              }
+            }
+            .copyWrapper {
+              border-top-left-radius: 0 !important;
+              border-top-right-radius: 0 !important;
+              border-bottom-right-radius: 8px;
+              border-bottom-left-radius: 8px;
+              .subTitle {
+                font-weight: 700;
+                font-size: 18px;
+                color: #1f2937;
+              }
+              .copy {
+                font-weight: 600;
+                font-size: 18px;
+                color: #009f7f;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

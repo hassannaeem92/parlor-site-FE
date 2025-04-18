@@ -1,0 +1,301 @@
+// .CouponSlider {
+//   .container-fluid {
+//     width: 96%;
+//     .CouponSliderInner {
+//       .slick-prev {
+//         z-index: 9 !important;
+//         background-color: #efefef;
+//         width: 30px !important;
+//         height: 30px !important;
+//         border-radius: 50%;
+//         left: -6px !important;
+//         opacity: 1 !important;
+//         transform: rotate(180deg);
+
+//         &::before {
+//           content: url("../assets/images/angleRight.svg") !important;
+//           color: #000000 !important;
+//           width: 50px;
+//           height: 50px;
+//           opacity: 1 !important;
+//         }
+//         &:hover {
+//           background-color: #009f7f !important;
+
+//           &::before {
+//             content: url("../assets/images/angleRightColor.svg") !important;
+//           }
+//         }
+//       }
+
+//       .slick-next {
+//         z-index: 9 !important;
+//         right: -6px !important;
+//         background-color: #efefef;
+//         width: 30px !important;
+//         height: 30px !important;
+//         opacity: 1 !important;
+//         border-radius: 50%;
+
+//         &::before {
+//           width: 50px;
+//           height: 50px;
+//           content: url("../assets/images/angleRight.svg") !important;
+//           opacity: 1 !important;
+//         }
+
+//         &:hover {
+//           background-color: #009f7f !important;
+
+//           &::before {
+//             content: url("../assets/images/angleRightColor.svg") !important;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+// .Services {
+//   // background-color: #FBEBD4; /* Use your accent color as background */
+//   padding: 1rem 0;
+
+//   .section-title {
+//     color: #9f5d1a; /* Use your primary color for headings */
+//     font-size: 2.5rem;
+//     text-align: center;
+//     margin-bottom: 1rem;
+//   }
+
+//   .section-subtitle {
+//     color: #9f5d1a; /* Use your primary color for subheadings */
+//     font-size: 1.2rem;
+//     text-align: center;
+//     margin-bottom: 2rem;
+//   }
+
+//   .service-card {
+//     background-color: #fff;
+//     border-radius: 10px;
+//     padding: 3rem 2rem;
+//     text-align: center;
+//     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+//     i {
+//       font-size: 2rem;
+//       color: #9f5d1a; /* Use your primary color for icons */
+//       margin-bottom: 2rem;
+//     }
+
+//     h3 {
+//       color: #9f5d1a; /* Use your primary color for service titles */
+//       margin-bottom: 1rem;
+//     }
+//   }
+// }
+
+
+// New Style Start here 
+// .Services {
+//   padding: 2rem 0;
+//   background-color: #f3f4f6; 
+
+//   .section-title {
+//     color: #9f5d1a;
+//     font-size: 2.5rem;
+//     text-align: center;
+//     margin-bottom: 1rem;
+//   }
+
+//   .section-subtitle {
+//     color: #9f5d1a;
+//     font-size: 1.2rem;
+//     text-align: center;
+//     margin-bottom: 2rem;
+//   }
+
+//   .row {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center; 
+//   }
+
+//   .service-card {
+//     background-color: #fff;
+//     border-radius: 15px;
+//     padding: 1.5rem 1rem; /* Reduced padding */
+//     text-align: center;
+//     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+//     transition: transform 0.3s ease-in-out;
+//     margin: 1rem; 
+
+//     &:hover {
+//       transform: translateY(-10px);
+//       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+//     }
+
+//     i {
+//       font-size: 1.6rem; /* Slightly reduced icon size */
+//       color: #9f5d1a;
+//       margin-bottom: 1rem;
+//     }
+
+//     h3 {
+//       color: #9f5d1a;
+//       margin-bottom: 0.5rem;
+//       font-size: 1rem; 
+//     }
+
+//     p {
+//       color: #666;
+//       font-size: 0.8rem;
+//       max-height: 3.5rem; /* Reduced max-height */
+//       overflow: hidden;
+//       text-overflow: ellipsis;
+//     }
+//   }
+// }
+
+.Services {
+  padding: 2rem 0;
+  background-color: #fff1f3; 
+  // background-color: #f3f4f6; 
+}
+
+.section-title {
+  color: #9f5d1a;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  color: #9f5d1a;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  max-width: 60%; /* Reduces the width slightly */
+  margin-left: auto; /* Centers the container */
+  margin-right: auto; /* Centers the container */
+  
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin: 1rem; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 350px;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.service-image {
+  // width: 100%;
+  // max-width: 150px; /* Set a max width for images */
+  // height: auto;
+  // margin-bottom: 1rem;
+  // border-radius: 10px;
+  // object-fit: cover;
+
+  width: 200px; /* Fixed width for the image */
+  height: 150px; /* Fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the area without distorting */
+  margin-bottom: 1rem;
+  border-radius: 10px; /* Rounded corners for the image */
+}
+
+h3 {
+  color: #9f5d1a;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem; 
+}
+
+p {
+  color: #666;
+  font-size: 0.9rem;
+  // max-height: 3.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.service-price {
+  color: #9f5d1a;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .row {
+    justify-content: center;
+  }
+
+  .service-card {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .service-image {
+    width: 80%;
+  }
+}
+
+  // .viewMore {
+  //   background-color: #9f5d1a ;
+  //   color: #fff;
+  //   border: none;
+  //   padding: 0.5rem 1.5rem;
+  //   border-radius: 20px;
+  //   font-size: 0.9rem;
+  //   cursor: pointer;
+  //   transition: all 0.3s ease-in-out;
+  // }
+
+  // .viewMore:hover {
+  //   background-color: #9f5d1a; /* Lighter version of #9f5d1a */
+  //   box-shadow: 0 4px 10px rgba(166, 115, 81, 0.4);
+  // }
+
+
+  .viewMore {
+    background-color: #9f5d1a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Removes underline from the link */
+    display: inline-block; /* Ensures proper block-level styling */
+    transition: background-color 0.3s ease;
+  }
+  
+  .viewMore:hover {
+    background-color: #9f5d1a;
+  }
+  
+  .viewMore a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color from the parent button */
+  }
+  

@@ -1,0 +1,65 @@
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title {
+  border-radius: 8px;
+  min-height: 150px;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title.lightBlue {
+  background-color: #4a92f7;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title.lightCamel {
+  background-color: #faaa6e;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title.skyBlue {
+  background-color: #00bcd6;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title.limeLight {
+  background-color: #46b3ac;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title.lightPurple {
+  background-color: #3f5ecd;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title.purple {
+  background-color: #8e71fe;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title.babyPink {
+  background-color: #f99d98;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title.redShade {
+  background-color: #ed6850;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title.lightPink {
+  background-color: #f06293;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title.lightPrimary {
+  background-color: #f2c32f;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .title .m-3 {
+  border: 1px dashed #ffffff;
+  border-radius: 8px;
+  min-height: 140px;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .copyWrapper {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.offersWrapper
+  .container
+  .row
+  .col-lg-3
+  .offerCard
+  .p-3
+  .copyWrapper
+  .subTitle {
+  font-weight: 700;
+  font-size: 18px;
+  color: #1f2937;
+}
+.offersWrapper .container .row .col-lg-3 .offerCard .p-3 .copyWrapper .copy {
+  font-weight: 600;
+  font-size: 18px;
+  color: #009f7f;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=offers.css.map */

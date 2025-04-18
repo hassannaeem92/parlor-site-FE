@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.singleFaqs .container .accordion .accordion-item {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #e5e7eb;
+}
+.singleFaqs .container .accordion .accordion-item .accordion-header button {
+  background-color: #ffffff !important;
+  box-shadow: unset;
+  border-radius: 8px;
+  font-family: polar-regular, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #000000;
+}
+.singleFaqs .container .accordion .accordion-item .accordion-header button::after {
+  background-image: unset !important;
+  transition: unset !important;
+  transform: unset !important;
+}
+.singleFaqs .container .accordion .accordion-item .accordion-header button.collapsed::after {
+  content: "+";
+}
+.singleFaqs .container .accordion .accordion-item .accordion-header button:not(.collapsed)::after {
+  content: "−";
+}
+.singleFaqs .container .accordion .accordion-item .accordion-collapse .accordion-body {
+  text-align: left;
+  font-family: polar-regular, sans-serif;
+  color: #323232;
+}
+
+/*# sourceMappingURL=faqs.css.map */

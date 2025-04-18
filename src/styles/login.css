@@ -1,0 +1,68 @@
+.login, .register, .forget {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+.login .container .row .col-lg-4 .bg-white .brand img, .register .container .row .col-lg-4 .bg-white .brand img, .forget .container .row .col-lg-4 .bg-white .brand img {
+  max-width: 140px;
+}
+.login .container .row .col-lg-4 .bg-white .brand .py-3, .register .container .row .col-lg-4 .bg-white .brand .py-3, .forget .container .row .col-lg-4 .bg-white .brand .py-3 {
+  color: #666666;
+  font-size: 16px;
+}
+.login .container .row .col-lg-4 .bg-white .row .col-md-12 .form-label, .register .container .row .col-lg-4 .bg-white .row .col-md-12 .form-label, .forget .container .row .col-lg-4 .bg-white .row .col-md-12 .form-label {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+.login .container .row .col-lg-4 .bg-white .row .col-md-12 .form-label a, .register .container .row .col-lg-4 .bg-white .row .col-md-12 .form-label a, .forget .container .row .col-lg-4 .bg-white .row .col-md-12 .form-label a {
+  font-size: 12px;
+  color: #009f7f;
+  text-decoration: none !important;
+  font-weight: 400;
+}
+.login .container .row .col-lg-4 .bg-white .row .col-md-12 .form-control, .register .container .row .col-lg-4 .bg-white .row .col-md-12 .form-control, .forget .container .row .col-lg-4 .bg-white .row .col-md-12 .form-control {
+  border-color: #d1d5db;
+}
+.login .container .row .col-lg-4 .bg-white .row .col-md-12 .form-control:focus-visible, .login .container .row .col-lg-4 .bg-white .row .col-md-12 .form-control:focus, .register .container .row .col-lg-4 .bg-white .row .col-md-12 .form-control:focus-visible, .register .container .row .col-lg-4 .bg-white .row .col-md-12 .form-control:focus, .forget .container .row .col-lg-4 .bg-white .row .col-md-12 .form-control:focus-visible, .forget .container .row .col-lg-4 .bg-white .row .col-md-12 .form-control:focus {
+  border-color: #009f7f;
+  box-shadow: unset !important;
+  outline-color: unset !important;
+}
+.login .container .row .col-lg-4 .bg-white .row .col-md-12 .hide, .register .container .row .col-lg-4 .bg-white .row .col-md-12 .hide, .forget .container .row .col-lg-4 .bg-white .row .col-md-12 .hide {
+  right: 1rem;
+}
+.login .container .row .col-lg-4 .bg-white .row .btn, .register .container .row .col-lg-4 .bg-white .row .btn, .forget .container .row .col-lg-4 .bg-white .row .btn {
+  background-color: #009f7f;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.7rem;
+  font-size: 16px;
+  font-weight: 700;
+}
+.login .container .row .col-lg-4 .bg-white .orAccount .line, .register .container .row .col-lg-4 .bg-white .orAccount .line, .forget .container .row .col-lg-4 .bg-white .orAccount .line {
+  color: #666666;
+}
+.login .container .row .col-lg-4 .bg-white .orAccount .line:before, .register .container .row .col-lg-4 .bg-white .orAccount .line:before, .forget .container .row .col-lg-4 .bg-white .orAccount .line:before {
+  content: "";
+  width: 100%;
+  background-color: #009f7f;
+  height: 1px;
+}
+.login .container .row .col-lg-4 .bg-white .orAccount .line:after, .register .container .row .col-lg-4 .bg-white .orAccount .line:after, .forget .container .row .col-lg-4 .bg-white .orAccount .line:after {
+  content: "";
+  width: 100%;
+  background-color: #009f7f;
+  height: 1px;
+}
+.login .container .row .col-lg-4 .bg-white .orAccount span, .register .container .row .col-lg-4 .bg-white .orAccount span, .forget .container .row .col-lg-4 .bg-white .orAccount span {
+  color: #666666;
+  font-size: 16px;
+}
+.login .container .row .col-lg-4 .bg-white .orAccount span a, .register .container .row .col-lg-4 .bg-white .orAccount span a, .forget .container .row .col-lg-4 .bg-white .orAccount span a {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 18px;
+  color: #009f7f;
+}
+
+/*# sourceMappingURL=login.css.map */

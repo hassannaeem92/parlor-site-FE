@@ -1,0 +1,86 @@
+.HeroWrapper {
+  background-image: url("../assets/images/Hero.webp");
+  background-size: cover;
+  min-height: 0;
+  background-repeat: no-repeat;
+}
+.HeroWrapper .d-block .row .col-lg-6 {
+  min-height: calc(100vh - 120px);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 1rem !important;
+}
+.HeroWrapper .d-block .row .col-lg-6 .h1 {
+  color: #1f2937;
+}
+.HeroWrapper .d-block .row .col-lg-6 .title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1f2937;
+}
+.HeroWrapper .d-block .row .col-lg-6 .searchWrapper {
+  background-color: #ffffff;
+  border: 1px transparent;
+  min-width: 100%;
+  border-radius: 8px;
+  display: flex;
+  align-items: unset;
+}
+.HeroWrapper
+  .d-block
+  .row
+  .col-lg-6
+  .searchWrapper:focus-visible
+  .HeroWrapper
+  .d-block
+  .row
+  .col-lg-6
+  .searchWrapper:focus-visible,
+.HeroWrapper .d-block .row .col-lg-6 .searchWrapper:focus {
+  outline-color: #009f7f !important;
+  box-shadow: unset !important;
+}
+.HeroWrapper .d-block .row .col-lg-6 .searchWrapper input {
+  border: unset !important;
+  flex-grow: 1;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+}
+.HeroWrapper
+  .d-block
+  .row
+  .col-lg-6
+  .searchWrapper
+  input:focus-visible
+  .HeroWrapper
+  .d-block
+  .row
+  .col-lg-6
+  .searchWrapper
+  input:focus-visible,
+.HeroWrapper .d-block .row .col-lg-6 .searchWrapper input:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+.HeroWrapper .d-block .row .col-lg-6 .searchWrapper button {
+  background-color: #009f7f;
+  border: unset;
+  color: #ffffff;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0.7rem 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.HeroWrapper .d-block .row .col-lg-6 .searchWrapper button:focus-visible,
+.HeroWrapper .d-block .row .col-lg-6 .searchWrapper button:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+
+/*# sourceMappingURL=Hero.css.map */

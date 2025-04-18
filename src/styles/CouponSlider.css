@@ -1,0 +1,46 @@
+.CouponSlider .container-fluid .CouponSliderInner .slick-prev {
+  z-index: 9 !important;
+  background-color: #efefef;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  left: -6px !important;
+  opacity: 1 !important;
+  transform: rotate(180deg);
+}
+.CouponSlider .container-fluid .CouponSliderInner .slick-prev::before {
+  content: url("../assets/images/angleRight.svg") !important;
+  color: #000000 !important;
+  width: 50px;
+  height: 50px;
+  opacity: 1 !important;
+}
+.CouponSlider .container-fluid .CouponSliderInner .slick-prev:hover {
+  background-color: #009f7f !important;
+}
+.CouponSlider .container-fluid .CouponSliderInner .slick-prev:hover::before {
+  content: url("../assets/images/angleRightColor.svg") !important;
+}
+.CouponSlider .container-fluid .CouponSliderInner .slick-next {
+  z-index: 9 !important;
+  right: -6px !important;
+  background-color: #efefef;
+  width: 30px !important;
+  height: 30px !important;
+  opacity: 1 !important;
+  border-radius: 50%;
+}
+.CouponSlider .container-fluid .CouponSliderInner .slick-next::before {
+  width: 50px;
+  height: 50px;
+  content: url("../assets/images/angleRight.svg") !important;
+  opacity: 1 !important;
+}
+.CouponSlider .container-fluid .CouponSliderInner .slick-next:hover {
+  background-color: #009f7f !important;
+}
+.CouponSlider .container-fluid .CouponSliderInner .slick-next:hover::before {
+  content: url("../assets/images/angleRightColor.svg") !important;
+}
+
+/*# sourceMappingURL=CouponSlider.css.map */

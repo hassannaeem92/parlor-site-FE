@@ -1,0 +1,152 @@
+// .deals-list {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 20px;
+//   }
+  
+//   .deal-card {
+//     display: flex;
+//     align-items: center;
+//     gap: 20px;
+//     background: #fff;
+//     border-radius: 10px;
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//     padding: 20px;
+//     max-width: 800px;
+//     margin: auto;
+//   }
+  
+//   .deal-image {
+//     width: 250px;
+//     height: auto;
+//     border-radius: 8px;
+//   }
+  
+//   .deal-content {
+//     flex: 1;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 10px;
+//   }
+  
+//   .deal-title {
+//     font-size: 22px;
+//     font-weight: bold;
+//   }
+  
+//   .deal-description {
+//     font-size: 16px;
+//     color: #555;
+//   }
+  
+//   .deal-price {
+//     font-size: 18px;
+//     font-weight: bold;
+//     color: #d9534f;
+//   }
+  
+//   .book-btn {
+//     padding: 10px 15px;
+//     background: #ff5722;
+//     color: white;
+//     border: none;
+//     border-radius: 5px;
+//     cursor: pointer;
+//     font-size: 16px;
+//     transition: 0.3s;
+//   }
+  
+//   .book-btn:hover {
+//     background: #e64a19;
+//   }
+  
+
+// /* Container for the product page */
+// .product-container {
+//   display: flex;
+//   flex-wrap: wrap;
+//   align-items: center;
+//   gap: 30px;
+//   max-width: 1000px;
+//   margin: auto;
+//   padding: 20px;
+//   background: #fff;
+//   border-radius: 10px;
+//   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+// }
+
+// /* Left: Image Section */
+// .product-image-container {
+//   flex: 1;
+//   max-width: 400px;
+// }
+
+// .product-image {
+//   width: 100%;
+//   height: auto;
+//   border-radius: 10px;
+//   object-fit: cover;
+//   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+// }
+
+// /* Right: Product Details */
+// .product-details {
+//   flex: 2;
+//   padding: 10px;
+// }
+
+// .product-title {
+//   font-size: 2rem;
+//   font-weight: bold;
+//   color: #222;
+//   margin-bottom: 10px;
+// }
+
+// .product-description {
+//   font-size: 1.1rem;
+//   color: #555;
+//   line-height: 1.6;
+//   margin-bottom: 15px;
+// }
+
+// .product-price {
+//   font-size: 1.8rem;
+//   font-weight: bold;
+//   color: #d9534f;
+//   margin-bottom: 20px;
+// }
+
+// .book-btn {
+//   background: linear-gradient(135deg, #007bff, #0056b3);
+//   color: white;
+//   padding: 12px 30px;
+//   font-size: 1rem;
+//   font-weight: bold;
+//   border: none;
+//   border-radius: 25px;
+//   cursor: pointer;
+//   transition: background 0.3s ease;
+// }
+
+// .book-btn:hover {
+//   background: linear-gradient(135deg, #0056b3, #003c7e);
+// }
+
+// /* Responsive Design */
+// @media (max-width: 768px) {
+//   .product-container {
+//     flex-direction: column;
+//     text-align: center;
+//   }
+
+//   .product-image-container {
+//     max-width: 100%;
+//   }
+// }
+
+
+.slick-prev::before,
+.slick-next::before {
+  color: #9f5d1a !important; /* Change this to your desired color */
+  font-size: 24px; /* Adjust size if needed */
+}

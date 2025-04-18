@@ -1,0 +1,183 @@
+.checkout {
+  background-color: #f3f4f6;
+  min-height: 100vh;
+}
+.checkout .container .row .col-lg-8 .bg-white .d-flex .d-flex span:first-child {
+  color: #ffffff;
+  background-color: #7e3f25;
+  width: 35px;
+  height: 35px;
+}
+.checkout .container .row .col-lg-8 .bg-white .d-flex .d-flex span:last-child {
+  color: #000000;
+  font-weight: 500;
+  font-size: 18px;
+}
+.checkout .container .row .col-lg-8 .bg-white .d-flex .update span {
+  background-color: #f3f4f6;
+  color: #7e3f25;
+  cursor: pointer;
+}
+.checkout .container .row .col-lg-8 .bg-white .textarea .form-control:focus-visible, .checkout .container .row .col-lg-8 .bg-white .textarea .form-control:focus {
+  box-shadow: unset !important;
+  outline-color: unset !important;
+  border-color: #7e3f25 !important;
+}
+.checkout .container .row .col-lg-8 .bg-white .deliveryTime label {
+  min-width: 220px;
+  cursor: pointer;
+}
+.checkout .container .row .col-lg-8 .bg-white .deliveryTime label input {
+  display: none;
+}
+.checkout .container .row .col-lg-8 .bg-white .deliveryTime label input:checked + .label {
+  border-color: #7e3f25;
+  background-color: #f3f4f6;
+  border-radius: 6px;
+}
+.checkout .container .row .col-lg-8 .bg-white .deliveryTime label .label {
+  border: 1px solid transparent;
+  background-color: #f3f4f6;
+  border-radius: 6px;
+}
+.checkout .container .row .col-lg-8 .bg-white .deliveryTime label .label:hover {
+  border-color: #7e3f25;
+}
+.checkout .container .row .col-lg-8 .bg-white .deliveryTime label .label .title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.checkout .container .row .col-lg-8 .bg-white .deliveryTime label .label .time {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+}
+.checkout .container .row .col-lg-8 .bg-white .phoneNumber {
+  cursor: not-allowed;
+  padding: 0.6rem 1rem !important;
+}
+.checkout .container .row .col-lg-8 .bg-white .phoneNumber .PhoneInput input {
+  cursor: not-allowed;
+}
+.checkout .container .row .col-lg-8 .bg-white .phoneNumber .PhoneInputCountrySelect {
+  display: contents !important;
+  cursor: not-allowed;
+}
+.checkout .container .row .col-lg-8 .bg-white .phoneNumber input {
+  border: unset !important;
+}
+.checkout .container .row .col-lg-8 .bg-white .phoneNumber input:focus-visible, .checkout .container .row .col-lg-8 .bg-white .phoneNumber input:focus {
+  outline: unset;
+  box-shadow: unset;
+}
+.checkout .container .row .col-lg-8 .bg-white .billingAddress {
+  cursor: pointer;
+  border: 1px solid #7e3f25;
+  width: 30%;
+}
+.checkout .container .row .col-lg-8 .bg-white .billingAddress .position-absolute {
+  display: none;
+}
+.checkout .container .row .col-lg-8 .bg-white .billingAddress .position-absolute .editAddress .rounded-circle {
+  width: 20px;
+  height: 20px;
+}
+.checkout .container .row .col-lg-8 .bg-white .billingAddress .title {
+  font-weight: 700;
+  font-size: 16px;
+}
+.checkout .container .row .col-lg-8 .bg-white .billingAddress .text {
+  font-weight: 300;
+  font-size: 14px;
+}
+.checkout .container .row .col-lg-8 .bg-white .billingAddress:hover .position-absolute {
+  display: block;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.checkout .container .row .col-lg-8 .bg-white .billingAddress:hover .position-absolute span:first-child {
+  background-color: #7e3f25;
+  color: #ffffff;
+  font-size: 10px;
+}
+.checkout .container .row .col-lg-8 .bg-white .billingAddress:hover .position-absolute span:last-child {
+  background-color: #c00303;
+  color: #ffffff;
+  font-size: 12px;
+}
+@media only screen and (max-width: 992px) {
+  .checkout .container .row .col-lg-8 .bg-white .billingAddress {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .checkout .container .row .col-lg-8 .bg-white .billingAddress {
+    width: 100%;
+  }
+}
+.checkout .container .row .col-lg-4 .orderSummary .productQuantity {
+  color: #6b7280;
+  font-size: 15px;
+  font-weight: 300;
+}
+.checkout .container .row .col-lg-4 .orderSummary .productQuantity span {
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+}
+.checkout .container .row .col-lg-4 .orderSummary .confirmPayment .btn {
+  background-color: #7e3f25;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  padding: 0.7rem;
+}
+.checkout .container .row .col-lg-4 .orderSummary .total, .checkout .container .row .col-lg-4 .orderSummary .subTotal, .checkout .container .row .col-lg-4 .orderSummary .estimated {
+  color: #6b7280;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.modal-dialog .modal-content {
+  padding: 1rem;
+}
+.modal-dialog .modal-content .modal-body .form-check-label {
+  cursor: pointer;
+}
+.modal-dialog .modal-content .modal-body .form-check-label input {
+  cursor: pointer;
+}
+.modal-dialog .modal-content .modal-body .form-check-label .form-check-input:checked {
+  background-color: #7e3f25;
+  border-color: #7e3f25;
+}
+.modal-dialog .modal-content .modal-body .form-check-label .form-check-input:checked:focus-visible, .modal-dialog .modal-content .modal-body .form-check-label .form-check-input:checked:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+  border-color: #7e3f25 !important;
+}
+.modal-dialog .modal-content .modal-body .form-label {
+  font-weight: 700;
+  font-size: 14px;
+}
+.modal-dialog .modal-content .modal-body input:focus-visible, .modal-dialog .modal-content .modal-body input:focus, .modal-dialog .modal-content .modal-body textarea:focus-visible, .modal-dialog .modal-content .modal-body textarea:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+  border-color: #7e3f25 !important;
+}
+.modal-dialog .modal-content .modal-body .updateBtn {
+  font-size: 18px;
+  background-color: #7e3f25 !important;
+  color: #FFFFFF;
+  font-weight: 700;
+  border-color: #7e3f25 !important;
+}
+.modal-dialog .modal-content .modal-body .updateBtn:focus-visible, .modal-dialog .modal-content .modal-body .updateBtn:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+  border-color: #7e3f25 !important;
+}
+
+/*# sourceMappingURL=checkout.css.map */

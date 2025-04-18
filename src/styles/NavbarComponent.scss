@@ -1,0 +1,515 @@
+// .NavbarComponent {
+//   .navbar {
+//     .container-fluid {
+//       .navbar-brand {
+//         img {
+//           max-width: 100px;
+//           cursor: pointer;
+//         }
+//       }
+//       .navbar-nav {
+//         .nav-link {
+//           font-weight: 500;
+//           font-size: 16px;
+//           color: #000000a6;
+
+//           &:hover {
+//             color: #009f7f;
+//           }
+
+//           &.active {
+//             color: #009f7f;
+//           }
+//         }
+//         .linksDropdown {
+//           .btnLink {
+//             background-color: transparent !important;
+//             border: unset !important;
+//             font-weight: 500;
+//             font-size: 16px;
+//             color: #000000a6;
+
+//             &:hover {
+//               color: #009f7f;
+//             }
+//           }
+//           .dropdown-menu {
+//             background-color: #ffffff;
+//             box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+//               0 1px 2px -1px rgba(0, 0, 0, 0.1);
+//             border: unset !important;
+//             a {
+//               &:hover {
+//                 background-color: #009f7f;
+//                 color: #ffffff;
+//                 &:focus-visible,
+//                 &:focus {
+//                   background-color: #009f7f;
+//                   color: #ffffff;
+//                 }
+//               }
+//             }
+//           }
+//           .dropdown-menu[data-bs-popper] {
+//             left: -3rem !important;
+//           }
+//         }
+//         .profileDropdown {
+//           .btnLink {
+//             display: flex;
+//             background-color: transparent !important;
+//             border: unset !important;
+//             font-weight: 500;
+//             font-size: 16px;
+//             color: #000000a6;
+//             img {
+//               width: 45px;
+//               height: 45px;
+//               object-fit: contain;
+//               border-radius: 50%;
+//             }
+//           }
+//           .dropdown-menu {
+//             background-color: #ffffff;
+//             box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+//               0 1px 2px -1px rgba(0, 0, 0, 0.1);
+//             border: unset !important;
+//             a {
+//               &:hover {
+//                 background-color: #009f7f;
+//                 color: #ffffff;
+//                 &:focus-visible,
+//                 &:focus {
+//                   background-color: #009f7f;
+//                   color: #ffffff;
+//                 }
+//               }
+//             }
+//           }
+//           .dropdown-menu[data-bs-popper] {
+//             left: -3rem !important;
+//           }
+//         }
+
+//         .button {
+//           background-color: #009f7f;
+//           color: #ffffff;
+//           border-color: #009f7f;
+//           font-weight: 500;
+//           font-size: 16px;
+//         }
+//       }
+//     }
+//   }
+
+//   .checkOutCanvas {
+//     top: 50%;
+//     transform: translateY(-50%);
+//     z-index: 99;
+//   }
+// }
+
+
+// New Code for Beauty Product
+
+// #7e3f25
+// 7e3f25 currently use
+// 662f1b  for hover
+
+
+
+
+// NEW Style 
+///////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+// .NavbarComponent {
+//   .navbar {
+//     .container-fluid {
+//       .navbar-brand {
+//         img {
+//           max-width: 100px;
+//           cursor: pointer;
+//         }
+//       }
+//       .navbar-nav {
+//         .nav-link {
+//           font-weight: 500;
+//           font-size: 16px;
+//           color: #7e3f25; // Deep Plum for main text
+
+//           &:hover {
+//             color: #662f1b; // Vibrant Rose Pink on hover
+//           }
+
+//           &.active {
+//             color: #662f1b; // Vibrant Rose Pink for active state
+//           }
+//         }
+//         .linksDropdown {
+//           .btnLink {
+//             background-color: transparent !important;
+//             border: unset !important;
+//             font-weight: 500;
+//             font-size: 16px;
+//             color: #7e3f25; // Deep Plum for links
+
+//             &:hover {
+//               color: #662f1b; // Rose Pink on hover
+//               // color: #E91E63; // Rose Pink on hover
+//             }
+//           }
+//           .dropdown-menu {
+//             background-color: #FAF3E0; // Soft Cream for dropdown background
+//             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+//             border: unset !important;
+//             a {
+//               &:hover {
+//                 background-color: #662f1b; // Rose Pink on hover
+//                 color: #FFFFFF; // White for text
+//               }
+//             }
+//           }
+//           .dropdown-menu[data-bs-popper] {
+//             left: -3rem !important;
+//           }
+//         }
+//         .profileDropdown {
+//           .btnLink {
+//             display: flex;
+//             background-color: transparent !important;
+//             border: unset !important;
+//             font-weight: 500;
+//             font-size: 16px;
+//             color: #7e3f25; // Deep Plum for profile links
+//             img {
+//               width: 45px;
+//               height: 45px;
+//               object-fit: contain;
+//               border-radius: 50%;
+//             }
+//           }
+//           .dropdown-menu {
+//             background-color: #FAF3E0; // Soft Cream for dropdown background
+//             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+//             border: unset !important;
+//             a {
+//               &:hover {
+//                 background-color: #662f1b; // Rose Pink on hover
+//                 color: #FFFFFF; // White for text
+//               }
+//             }
+//           }
+//           .dropdown-menu[data-bs-popper] {
+//             left: -3rem !important;
+//           }
+//         }
+
+//         .button {
+//           background-color: #7e3f25; // Deep Plum for button background
+//           color: #FFFFFF; // White for button text
+//           border-color: #7e3f25; // Deep Plum for border
+
+//           &:hover {
+//             background-color: #662f1b; // Rose Pink on hover
+//             color: #FFFFFF; // White for text
+//           }
+//         }
+//       }
+//     }
+//   }
+
+//   .checkOutCanvas {
+//     top: 50%;
+//     transform: translateY(-50%);
+//     z-index: 99;
+//   }
+// }
+
+
+.header-container{
+  .navbar-brand{
+    img {
+      max-width: 80px;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+.NavbarComponent {
+  .navbar {
+    .container-fluid {
+      .navbar-brand {
+        img {
+          max-width: 120px;
+          cursor: pointer;
+          transition: transform 0.3s ease-in-out;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+
+      .navbar-nav {
+        .nav-link {
+          font-weight: bol;
+          font-size: 16px;
+          color: #9F5D1F; // Mocha Brown for main text
+          transition: color 0.3s ease-in-out;
+
+          &:hover {
+            color: #8B4B21; // Deeper Mocha for hover effect
+          }
+
+          &.active {
+            color: #8B4B21;
+            font-weight: bold;
+            border-bottom: 2px solid #8B4B21; // Elegant underline for active state
+          }
+        }
+
+        .linksDropdown {
+          .btnLink {
+            background: transparent !important;
+            border: none !important;
+            font-weight: 600;
+            font-size: 16px;
+            color: #9F5D1F;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              color: #8B4B21;
+            }
+          }
+
+          .dropdown-menu {
+            background: #ffffff; // Pure white for contrast
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 10px; // Added padding for a spacious look
+
+            a {
+              font-weight: 500;
+              padding: 10px 15px; // Adds gap between items
+              margin: 5px 0; // Extra spacing between links
+              transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+              border-radius: 5px;
+
+              &:hover {
+                background: #9F5D1F; // Mocha Brown on hover
+                color: #ffffff; // White for text
+              }
+            }
+          }
+
+          .dropdown-menu[data-bs-popper] {
+            left: -2rem !important;
+          }
+        }
+
+        .profileDropdown {
+          .btnLink {
+            display: flex;
+            align-items: center;
+            background-color: transparent !important;
+            border: none !important;
+            font-weight: 600;
+            font-size: 16px;
+            color: #9F5D1F;
+
+            img {
+              width: 50px;
+              height: 50px;
+              object-fit: cover;
+              border-radius: 50%;
+              border: 2px solid #9F5D1F;
+              transition: transform 0.3s ease-in-out;
+
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+          }
+
+          .dropdown-menu {
+            background: #ffffff;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 10px;
+
+            a {
+              font-weight: 500;
+              padding: 10px 15px;
+              margin: 5px 0;
+              border-radius: 5px;
+              transition: all 0.3s ease-in-out;
+
+              &:hover {
+                background: #9F5D1F;
+                color: #ffffff;
+              }
+            }
+          }
+
+          .dropdown-menu[data-bs-popper] {
+            left: -2rem !important;
+          }
+        }
+
+        .button {
+          background: #9F5D1F;
+          color: #fff;
+          padding: 10px 18px;
+          border-radius: 6px;
+          font-weight: 600;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            background: #8B4B21;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .checkOutCanvas {
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.9); // Light transparent white
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  #services-dropdown {
+    text-decoration: none !important;
+  }
+}
+
+
+
+// New header design 
+// .header {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   padding: 10px 20px;
+// }
+
+// .brand-logo {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .navbar {
+//   display: flex;
+//   align-items: center;
+//   gap: 20px; /* Adjust spacing */
+// }
+
+// .auth-buttons {
+//   display: flex;
+//   align-items: center;
+//   gap: 10px;
+// }
+
+// #services-dropdown{
+//   font-weight: bold !important;
+// }
+
+// .nav-link {
+//   color: black !important; 
+// }
+
+// /* Header.css */
+
+// /* Bold styling for Nav.Link */
+// .bold-nav-link {
+//   font-weight: bold;
+// }
+
+// /* Dropdown menu styles */
+// .dropdown-menu {
+//   transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+//   transform-origin: top center; /* Animation starts from top */
+// }
+
+// /* Animation when dropdown is shown */
+// .dropdown-menu.show {
+//   animation: slideDown 0.3s ease-in-out forwards; /* Slide-down animation */
+// }
+
+// /* Keyframes for slide-down effect */
+// @keyframes slideDown {
+//   0% {
+//     opacity: 0;
+//     transform: scaleY(0); /* Start collapsed */
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: scaleY(1); /* Fully expanded */
+//   }
+// }
+
+
+/* Header.css */
+
+/* Bold styling for Nav.Link */
+.bold-nav-link {
+  font-weight: bold;
+}
+
+/* Wrapper for dropdown to extend hover area */
+.dropdown-wrapper {
+  position: relative;
+  display: inline-block; /* Keeps it in the flow */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  transition: all 0.3s ease-in-out;
+  transform-origin: top center;
+  z-index: 10000;
+  margin-top: 0 !important; /* Remove gap between trigger and menu */
+  top: 100%; /* Position directly below the trigger */
+}
+
+/* Animation when dropdown is shown */
+.dropdown-menu.show {
+  animation: slideDown 0.3s ease-in-out forwards;
+}
+
+/* Keyframes for slide-down effect */
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+.nav-link{
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.nav-link:hover{
+  color: #9F5D1F !important;
+}

@@ -1,0 +1,13 @@
+.row .text-center .btn {
+  color: #FFFFFF;
+  background-color: #7e3f25;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0.6rem 1.4rem !important;
+}
+.row .text-center .btn:focus-visible, .row .text-center .btn:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+
+/*# sourceMappingURL=ProductList.css.map */

@@ -1,0 +1,332 @@
+// /* General footer styles */
+// .footer {
+//   background-color: #9f5d1a; /* Darker shade of your primary color */
+//   color: #fff; /* White text for high contrast */
+//   padding: 60px 20px;
+//   font-family: 'Arial', sans-serif;
+//   box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+// }
+
+
+// .footer-container {
+//   display: flex;
+//   justify-content: space-between;
+//   flex-wrap: wrap;
+//   gap: 30px; /* Adds gap between sections */
+// }
+
+// .footer-section {
+//   flex: 1;
+//   margin: 10px;
+//   padding: 20px;
+//   max-width: 320px; /* Ensures sections don't get too large on wide screens */
+// }
+
+// .footer-section h3 {
+//   font-size: 22px;
+//   color: #fff;
+//   margin-bottom: 15px;
+//   font-weight: 700;
+// }
+
+// .footer-section p {
+//   font-size: 14px;
+//   color: #f0f0f0; /* Lighter gray text for readability */
+//   line-height: 1.6; /* Improves readability */
+// }
+
+// .footer-section ul {
+//   list-style-type: none;
+//   padding: 0;
+// }
+
+// .footer-section ul li {
+//   margin: 8px 0;
+// }
+
+// .footer-section ul li a {
+//   text-decoration: none;
+//   color: #f0f0f0;
+//   font-size: 16px; /* Increased size for better readability */
+//   transition: color 0.3s ease;
+// }
+
+// .footer-section ul li a:hover {
+//   color: #9f5d1a; /* On hover, change to your primary pink color */
+// }
+
+// /* Social media icons */
+// .social-icons {
+//   display: flex;
+//   gap: 12px;
+// }
+
+// .social-icon {
+//   display: inline-block;
+//   text-decoration: none;
+//   background-color: #fff;
+//   color: #9f5d1a; /* Dark color to contrast against white */
+//   padding: 12px;
+//   border-radius: 50%;
+//   font-size: 18px;
+//   text-align: center;
+//   width: 45px;
+//   height: 45px;
+//   line-height: 22px;
+//   transition: background-color 0.3s ease, color 0.3s ease;
+// }
+
+// .social-icon:hover {
+//   background-color: #744211; /* Hover effect with your pink */
+//   color: #fff;
+// }
+
+// /* Footer bottom styles */
+// .footer-bottom {
+//   text-align: center;
+//   margin-top: 40px;
+//   font-size: 14px;
+//   color: #f0f0f0;
+// }
+
+// .footer-bottom p {
+//   margin: 0;
+// }
+
+
+
+// /* Responsive design */
+// @media (max-width: 768px) {
+//   .footer-container {
+//     flex-direction: column;
+//     align-items: center;
+//   }
+
+//   .footer-section {
+//     max-width: 100%;
+//     text-align: center;
+//   }
+
+//   .footer-section h3 {
+//     font-size: 20px;
+//   }
+
+//   .social-icons {
+//     justify-content: center;
+//   }
+
+//   .social-icon {
+//     width: 40px;
+//     height: 40px;
+//     font-size: 16px;
+//   }
+// }
+
+
+
+/* General footer styles */
+.footer {
+  background-color: #F6EDE5; /* Pastel pink background */
+  color: #333; /* Darker text for contrast */
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px; /* Matches the width of the image */
+  margin: 0 auto;
+  gap: 10px; /* Proper gap between sections */
+  overflow: hidden;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 100px; /* Ensures sections don't collapse too much */
+  padding: 10px;
+  padding-right: 7px;
+}
+
+.footer-section h3 {
+  font-size: 16px; /* Smaller, professional font */
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+  // text-transform: uppercase;
+}
+
+.footer-section p {
+  font-size: 13px; /* Smaller, professional font */
+  color: black;
+  line-height: 1.4; /* Adjusted for readability */
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  padding-bottom: 6px;
+  font-family: 'lato', sans-serif;
+}
+
+/* Styling for the > arrow */
+.arrow {
+  display: inline-block;
+  margin-right: 8px;
+  color: #666;
+  font-size: 13px;
+}
+
+/* Styling for the icons in the contact section */
+.icon {
+  display: inline-block;
+  margin-right: 8px;
+  color: #666;
+  font-size: 20px;
+}
+
+/* Social media icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #fff;
+  color: #333;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #9F5d1A; /* Pink hover effect */
+  color: #fff;
+}
+
+/* Cities Served Section */
+.footer-cities {
+  max-width: 1200px; /* Aligns with the sections above */
+  margin: 30px auto;
+  text-align: center;
+}
+
+.footer-cities h3 {
+  font-size: 16px; /* Smaller, professional font */
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.cities-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cities-list span {
+  background-color: #9F5d1A; /* Pink background for city tags */
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 13px; /* Smaller font */
+  text-transform: uppercase;
+}
+
+/* Trust Badges Section */
+.footer-trust-badges {
+  max-width: 1200px; /* Aligns with the sections above */
+  margin: 30px auto;
+  text-align: center;
+}
+
+.footer-trust-badges h3 {
+  font-size: 16px; /* Smaller, professional font */
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge img {
+  width: 140px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.badge p {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  max-width: 1200px; /* Aligns with the sections above */
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  font-size: 13px; /* Smaller font */
+  color: #666;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .cities-list {
+    gap: 8px;
+  }
+
+  .badges {
+    gap: 15px;
+  }
+
+  .footer-section p {
+    justify-content: center;
+  }
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}

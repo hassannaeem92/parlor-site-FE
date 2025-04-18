@@ -1,0 +1,28 @@
+.breadCrumWrapper {
+  min-height: 288px;
+  background-color: #e2e8f0;
+}
+.breadCrumWrapper .container .text-center .links {
+  color: rgb(107, 114, 128);
+}
+.breadCrumWrapper .container .text-center .links span {
+  cursor: pointer;
+  font-size: 14px;
+}
+.breadCrumWrapper .container .text-center .links span.first {
+  color: #1f2937;
+}
+.breadCrumWrapper .container .text-center .links span.first:hover {
+  color: #7e3f25;
+}
+.breadCrumWrapper .container .text-center .links span.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(107, 114, 128);
+}
+.breadCrumWrapper .container .text-center .links span svg {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=breadCrum.css.map */

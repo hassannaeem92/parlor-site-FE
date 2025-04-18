@@ -1,0 +1,490 @@
+// .EShopLayout {
+//   background-color: #f3f4f6;
+//   .row{
+//     .col-lg-2{
+//       min-height: 100vh;
+//       max-height: 100vh;
+//       overflow-y: scroll;
+//     }
+//   }
+// }
+
+// New Code CSs for beauty salon 
+
+
+
+.trendingSection {
+  // 25a79e
+  background: linear-gradient(135deg, #9f5d1a, #7e3f25);
+
+
+  padding: 2rem 0; /* Reduced padding */
+  color: #fff;
+}
+
+.TrendingServices {
+  padding: 2rem 0; /* Reduced padding */
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  animation: fadeIn 1s ease-in-out forwards;
+
+  .container {
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .text-container {
+      flex: 1 1 40%;
+      margin-right: 2rem;
+
+      h2 {
+        font-size: 2.5rem; /* Reduced font size */
+        font-weight: bold;
+        margin-bottom: 0.8rem; /* Reduced margin */
+        line-height: 1.2;
+        animation: fadeInUp 0.8s ease-in-out forwards;
+        font-family: "Poppins", sans-serif;
+        
+      }
+
+      p {
+        font-size: 1rem; /* Reduced font size */
+        line-height: 1.6;
+        margin-bottom: 1.5rem; /* Reduced margin */
+        animation: fadeInUp 1s ease-in-out forwards;
+      }
+
+      .cta-button {
+        background-color: #d8c5be;
+        color: #7e3f25;
+        border: none;
+        padding: 0.6rem 1.8rem; /* Reduced padding */
+        border-radius: 30px;
+        font-size: 0.9rem; /* Reduced font size */
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .cta-button:hover {
+        // background-color: #7e3f25;
+        color: #333;
+        // box-shadow: 0 5px 15px rgba(255, 192, 203, 0.4);
+      }
+    }
+
+    .slider-container {
+      flex: 1 1 55%;
+      max-width: 400px;
+      margin-top: -5px; /* Moves it up */
+    }
+
+    .slider-container {
+      // flex: 1 1 55%;
+      max-width: 400px; /* Reduced max-width */
+      margin-left: 2rem; /* To balance the layout */
+
+      .slider-item {
+        background: #fff;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        margin: 0.5rem;
+        text-align: center;
+        max-width: 90%;
+
+        &:hover {
+          transform: scale(1.05);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .slider-content {
+          padding: 1.2rem; /* Reduced padding */
+
+          .service-image {
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 250px; /* Reduced height */
+            border-radius: 10px;
+            margin-bottom: 1rem;
+          }
+
+          h3 {
+            font-size: 1.3rem; /* Reduced font size */
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #7e3f25;
+          }
+
+          p {
+            font-size: 0.9rem; /* Reduced font size */
+            color: #7e3f25;
+            margin-bottom: 1rem;
+          }
+
+          .slider-btn {
+            background-color: #7e3f25;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+          }
+
+          .slider-btn:hover {
+            background-color: #a67351; /* Lighter version of #7e3f25 */
+            box-shadow: 0 4px 10px rgba(166, 115, 81, 0.4);
+          }
+          
+        }
+      }
+    }
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .TrendingServices .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-container {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .slider-container {
+    max-width: 90%;
+  }
+
+  .slider-item {
+    margin: 0 auto;
+  }
+}
+
+
+//Picture section
+
+
+/* General Styles */
+.info-section {
+  padding: 60px 20px;
+  background-color: #f7f7f7; /* Light gray background */
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Allow the items to wrap on smaller screens */
+}
+
+.info-text {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+  color: #333;
+}
+
+.info-text h2 {
+  font-size: 28px;
+  color: #7e3f25; /* Dark magenta color */
+  margin-bottom: 20px;
+}
+
+.info-text p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #7e3f25;
+ /* Pink background for the button */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #a67351; /* Lighter version of #7e3f25 */
+  box-shadow: 0 4px 10px rgba(166, 115, 81, 0.4); /* Darker pink on hover */
+}
+
+.info-media {
+  flex: 1;
+  max-width: 50%;
+}
+
+.media-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.media-video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-text {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .info-media {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .cta-button {
+    padding: 10px 18px;
+    font-size: 16px;
+  }
+}
+
+// Section why choose us 
+
+.double-image-section {
+  padding: 60px 20px;
+  background-color: #fff; /* White background */
+}
+
+.double-image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; /* For responsiveness */
+}
+
+.image-group {
+  flex: 1;
+  max-width: 40%; /* Adjust image group size */
+  display: flex;
+  flex-wrap: wrap; /* Allow images to sit side by side */
+  gap: 10px; /* Space between images */
+  justify-content: center;
+}
+
+.side-image {
+  width: calc(50% - 10px); /* Two images side by side */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.side-image:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.description {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+  color: #333;
+}
+
+.description h2 {
+  font-size: 28px;
+  color: #7e3f25; /* Dark magenta */
+  margin-bottom: 20px;
+}
+
+.description p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 20px;
+              background-color: #7e3f25;
+ /* Pink button */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #a67351; /* Lighter version of #7e3f25 */
+  box-shadow: 0 4px 10px rgba(166, 115, 81, 0.4); /* Darker pink on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .double-image-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-group {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .side-image {
+    width: calc(50% - 5px); /* Reduce space for smaller screens */
+  }
+
+  .description {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .cta-button {
+    padding: 10px 18px;
+    font-size: 16px;
+  }
+}
+
+// Btns whats app
+
+// .floating-buttons {
+//   position: absolute;
+//   bottom: 10px; /* Adjust the spacing from the bottom of the footer */
+//   right: 10px;  /* Adjust the spacing from the right */
+//   display: flex;
+//   flex-direction: column;
+//   gap: 10px;
+// }
+
+
+
+
+
+.floating-buttons {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 1000;
+  width: 250px;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.floating-btn {
+  width: 51px;
+  height: 51px;
+  background-color: #25d366; /* WhatsApp Green */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2),
+              0 0 15px rgba(37, 211, 102, 0.8),
+              0 0 25px rgba(37, 211, 102, 0.5);
+  font-size: 24px;
+  transition: width 0.3s ease, border-radius 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  padding-right: 13px;
+}
+
+
+.floating-btn.phone {
+  background-color: #5A3220;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2),
+              0 0 15px rgba(90, 50, 32, 0.8),
+              0 0 25px rgba(90, 50, 32, 0.5);
+}
+
+/* Number span styling */
+.floating-btn .number {
+  position: absolute;
+  right: 50px;
+  width: max-content;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding-left: 10px;
+}
+
+/* Hover effects for WhatsApp button */
+.floating-btn:hover {
+  width: 200px; /* Perfect for WhatsApp */
+  border-radius: 25px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25),
+              0 0 20px rgba(37, 211, 102, 1),
+              0 0 30px rgba(37, 211, 102, 0.7);
+}
+
+/* Specific hover effects for phone button */
+.floating-btn.phone:hover {
+  width: 250px; /* Larger width for phone button */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25),
+              0 0 20px rgba(90, 50, 32, 1),
+              0 0 30px rgba(90, 50, 32, 0.7);
+}
+
+.floating-btn:hover .number {
+  opacity: 1;
+}
+
+
+
+
+
+

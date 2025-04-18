@@ -1,0 +1,96 @@
+.login, .register, .forget {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  .container {
+    .row {
+      .col-lg-4 {
+        .bg-white {
+          .brand {
+            img {
+              max-width: 140px;
+            }
+
+            .py-3 {
+              color: #666666;
+              font-size: 16px;
+
+            }
+          }
+
+          .row {
+            .col-md-12 {
+              .form-label {
+                font-weight: 700;
+                font-size: 16px;
+                color: #000000;
+
+                a {
+                  font-size: 12px;
+                  color: #009f7f;
+                  text-decoration: none !important;
+                  font-weight: 400;
+                }
+              }
+
+              .form-control {
+                border-color: #d1d5db;
+
+                &:focus-visible, &:focus {
+                  border-color: #009f7f;
+                  box-shadow: unset !important;
+                  outline-color: unset !important;
+                }
+              }
+
+              .hide {
+                right: 1rem;
+              }
+            }
+
+            .btn {
+              background-color: #009f7f;
+              color: #ffffff;
+              text-align: center;
+              padding: 0.7rem;
+              font-size: 16px;
+              font-weight: 700;
+            }
+          }
+
+          .orAccount {
+            .line {
+              color: #666666;
+
+              &:before {
+                content: "";
+                width: 100%;
+                background-color: #009f7f;
+                height: 1px;
+              }
+
+              &:after {
+                content: "";
+                width: 100%;
+
+                background-color: #009f7f;
+                height: 1px;
+              }
+            }
+
+            span {
+              color: #666666;
+              font-size: 16px;
+
+              a {
+                text-decoration: underline;
+                font-weight: 700;
+                font-size: 18px;
+                color: #009f7f;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

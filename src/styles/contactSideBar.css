@@ -1,0 +1,22 @@
+.contactSideBar .bg-white {
+  min-height: 100vh;
+}
+.contactSideBar .bg-white .image img {
+  min-height: 330px;
+}
+.contactSideBar .bg-white .social .title {
+  font-weight: 600 !important;
+  margin-bottom: 0.7rem;
+}
+.contactSideBar .bg-white .social .Subtitle {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(107, 114, 128);
+}
+.contactSideBar .bg-white .social .Subtitle span {
+  padding-right: 1.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=contactSideBar.css.map */

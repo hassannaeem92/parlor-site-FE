@@ -1,0 +1,27 @@
+.contactForm .bg-white {
+  min-height: 100vh;
+}
+.contactForm .bg-white .row label {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.contactForm .bg-white .row input:focus, .contactForm .bg-white .row textarea:focus {
+  border-color: #009f7f !important;
+  box-shadow: unset !important;
+}
+.contactForm .bg-white .row .col-lg-12 button {
+  background-color: #009f7f;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.7rem 1.7rem;
+}
+.contactForm .bg-white .row .col-lg-12 button:hover {
+  background-color: #039375;
+}
+.contactForm .bg-white .row .col-lg-12 button:focus-visible, .contactForm .bg-white .row .col-lg-12 button focus {
+  box-shadow: unset !important;
+  outline: unset !important;
+  border: unset !important;
+}
+
+/*# sourceMappingURL=contactForm.css.map */

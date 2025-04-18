@@ -1,0 +1,3 @@
+export const SET_FAQS = "SET_FAQS";
+export const SET_TERMS_CONDITIONS = "SET_TERMS_CONDITIONS";
+export const SET_REFUND_POLICY = "SET_REFUND_POLICY";

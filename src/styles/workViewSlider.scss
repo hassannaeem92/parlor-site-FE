@@ -1,0 +1,230 @@
+
+  
+// .customer-response-section {
+//     padding: 60px 20px;
+//     background-color: #f3f4f6; /* Light neutral background */
+//   }
+  
+//   .banner-container-work {
+//     display: flex;
+//     justify-content: left; /* Align to the right */
+
+//     background: linear-gradient(to left, #d8c5be, #f0a500, #7e3f25 );
+
+
+
+//     padding: 40px 20px;
+//     border-radius: 8px 0 0 8px;
+//     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+//   }
+  
+//   .banner-text-work {
+//     color: white;
+//     font-size: 36px;
+//     font-weight: bold;
+//     max-width: 50%;
+//     margin-right: 10%;
+//   }
+  
+//   .slider-container {
+//     max-width: 90%;
+//     margin: 30px auto;
+//     margin-top: 70px;
+//   }
+  
+//   .review-card {
+
+//     background-color: white;
+//     border-radius: 8px;
+//     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+//     padding: 20px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     height: 180px;
+//     margin: 0 10px; /* Proper spacing between cards */
+//   }
+  
+//   .review-content {
+//     text-align: center;
+//   }
+  
+//   .review-text {
+//     font-size: 16px;
+//     color: #333;
+//     font-style: italic;
+//   }
+  
+//   .review-author {
+//     margin-top: 20px;
+//     font-size: 18px;
+//     font-weight: bold;
+//     color: #8b4b21;
+//   }
+  
+//   /* Custom Arrow Styles */
+//   .custom-arrow {
+//     background-color: #7e3f25;
+//     border-radius: 50%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 40px;
+//     height: 40px;
+//     z-index: 1;
+//   }
+  
+//   .custom-arrow:hover {
+//     background-color: #8b4b21;
+//   }
+  
+//   .custom-arrow::before {
+//     color: white;
+//     font-size: 20px;
+//   }
+  
+//   .custom-arrow.next {
+//     right: -10px; /* Adjusted positioning for better alignment */
+//   }
+  
+//   .custom-arrow.prev {
+//     left: -10px; /* Adjusted positioning for better alignment */
+//   }
+  
+//   .slick-list {
+//     margin: 0;
+//   }
+
+
+//   .slick-track {
+//     display: flex;
+//     gap: 20px; /* Sets a proper gap between each slide */
+//   }
+  
+//   .slick-slide > div {
+//     padding: 0; /* Remove any extra padding from individual slides */
+//   }
+
+
+.work-section {
+    padding: 60px 20px;
+    // background-color: #fff1f3;
+    // background-color: #f3f4f6;
+    background-color: #fff;
+  }
+  
+//   .banner-container-work {
+//     display: flex;
+//     justify-content: left;
+//     background: linear-gradient(to left, #d8c5be, #f0a500, #7e3f25);
+//     padding: 40px 20px;
+//     border-radius: 8px 0 0 8px;
+//     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+//   }
+  
+//   .banner-text-work {
+//     color: white;
+//     font-size: 36px;
+//     font-weight: bold;
+//     max-width: 50%;
+//     margin-right: 10%;
+//   }
+  
+.banner-container-work {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: linear-gradient(to right, #1a1a1a, #7e3f25); /* Dark background for the banner */
+    padding: 30px 30px; /* Reduced padding for less height */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Soft shadow for elegance */
+  }
+  
+  .banner-text-work {
+    color: #f4f4f4; /* Light text for contrast */
+    font-size: 36px; /* Smaller font size */
+    font-weight: 600; /* Slightly bolder text */
+    max-width: 80%; /* Wider max-width for better alignment */
+    text-align: center; /* Center text horizontally */
+    line-height: 1.2; /* Adjust line height for better spacing */
+    text-transform: uppercase; /* Uppercase text for emphasis */
+  }
+  
+  .banner-text-work h2 {
+    letter-spacing: 2px; /* Add some space between letters */
+  }
+  
+  
+  .slider-container {
+    max-width: 90%;
+    margin: 30px auto;
+    margin-top: 70px;
+  }
+  
+  .review-card-work {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px !important; /* Adjust height to accommodate the image */
+    margin: 0 10px;
+  }
+  
+  .review-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the area properly */
+    border-radius: 8px;
+  }
+  
+  /* Custom Arrow Styles */
+  .custom-arrow {
+    background-color: #7e3f25;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+  }
+  
+  .custom-arrow:hover {
+    background-color: #8b4b21;
+  }
+  
+  .custom-arrow::before {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .custom-arrow.next {
+    right: -10px;
+  }
+  
+  .custom-arrow.prev {
+    left: -10px;
+  }
+  
+  .slick-list {
+    margin: 0;
+  }
+
+  // .work-section .slick-track{
+  
+  //     width: 7585px !important;
+  //   }
+  
+  
+  .slick-track {
+    display: flex;
+    gap: 20px; /* Sets a proper gap between each slide */
+  }
+  
+  .slick-slide > div {
+    padding: 0;
+  }
+  

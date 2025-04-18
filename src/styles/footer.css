@@ -1,0 +1,36 @@
+.footer {
+  background-color: #ffffff;
+}
+.footer .container .row .col-lg-6 .image img {
+  max-width: 120px;
+}
+.footer .container .row .col-lg-6 .ourInformtion h6 {
+  font-weight: 700;
+}
+.footer .container .row .col-lg-6 .ourInformtion ul li {
+  padding-bottom: 0.5rem;
+}
+.footer .container .row .col-lg-6 .ourInformtion ul li a {
+  font-size: 16px;
+  color: #1f2937;
+  font-weight: 300;
+  text-decoration: none;
+}
+.footer .container .row .col-lg-6 .row .col-lg-8 .content {
+  font-size: 14px;
+  color: #1f2937;
+  font-weight: 300;
+}
+.footer .container .row .col-lg-6 .row .col-lg-8 .contactLinks a {
+  font-size: 14px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.copyRight .container .row .col-lg-12 .text-center {
+  color: #1f2937 !important;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=footer.css.map */

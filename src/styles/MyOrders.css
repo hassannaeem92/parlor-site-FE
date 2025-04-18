@@ -1,0 +1,46 @@
+.order-history {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.order-history h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.order-history .table {
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.order-history .table thead th {
+  background-color: rgb(223, 205, 205);
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-color-type: var(--bs-table-striped-color);
+  --bs-table-bg-type: white;
+}
+
+.order-history .table tbody tr td {
+  background-color: white;
+}
+
+.order-history .table .text-success {
+  color: #28a745;
+}
+
+.order-history .table .text-warning {
+  color: #ffc107;
+}
+
+.order-history .table .text-danger {
+  color: #dc3545;
+}

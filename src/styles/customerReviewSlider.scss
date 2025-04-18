@@ -1,0 +1,140 @@
+// .customer-response-section {
+//     padding: 60px 20px;
+//     background-color: #f3f4f6; /* Light neutral background */
+//   }
+  
+//   .banner-container {
+//     display: flex;
+//     justify-content: flex-end; /* Align to the right */
+//     background: linear-gradient(to left, #8b4b21, #7e3f25, #8b4b21); /* Your colors */
+//     padding: 40px 20px;
+//     border-radius: 8px 0 0 8px;
+//     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+//   }
+  
+//   .banner-text {
+//     color: white;
+//     font-size: 36px;
+//     font-weight: bold;
+//     max-width: 50%;
+//     margin-right: 10%;
+//   }
+
+  
+  
+  
+.customer-response-section {
+    padding: 60px 20px;
+    background-color: #f3f4f6; /* Light neutral background */
+  }
+  
+  .banner-container {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    // background: linear-gradient(to left, #8b4b21, #7e3f25, #8b4b21); /* Your colors */
+    // background: linear-gradient(to left, #7e3f25, #a67351, #7e3f25);
+    // background: linear-gradient(to left, #7e3f25, #9e6d42, #d8c5be);
+    background: linear-gradient(to left, #7e3f25, #f0a500, #d8c5be);
+
+
+
+    padding: 40px 20px;
+    border-radius: 8px 0 0 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .banner-text {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    max-width: 50%;
+    margin-right: 10%;
+  }
+  
+  .slider-container {
+    max-width: 90%;
+    margin: 30px auto;
+    margin-top: 70px;
+  }
+  
+  .review-card {
+    // background-color: white;
+    // border-radius: 8px;
+    // box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    // padding: 20px;
+    // margin: 10px; /* Added margin for spacing between cards */
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    // height: 180px;
+
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+    margin: 0 10px; /* Proper spacing between cards */
+  }
+  
+  .review-content {
+    text-align: center;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    color: #333;
+    font-style: italic;
+  }
+  
+  .review-author {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8b4b21;
+  }
+  
+  /* Custom Arrow Styles */
+  .custom-arrow {
+    background-color: #7e3f25;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+  }
+  
+  .custom-arrow:hover {
+    background-color: #8b4b21;
+  }
+  
+  .custom-arrow::before {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .custom-arrow.next {
+    right: -10px; /* Adjusted positioning for better alignment */
+  }
+  
+  .custom-arrow.prev {
+    left: -10px; /* Adjusted positioning for better alignment */
+  }
+  
+  .slick-list {
+    margin: 0;
+  }
+
+
+  .slick-track {
+    display: flex;
+    gap: 20px; /* Sets a proper gap between each slide */
+  }
+  
+  .slick-slide > div {
+    padding: 0; /* Remove any extra padding from individual slides */
+  }

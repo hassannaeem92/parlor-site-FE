@@ -1,0 +1,63 @@
+.footer{
+  background-color: #ffffff;
+
+  .container{
+    .row{
+      .col-lg-6{
+        .image{
+          img{
+            max-width: 120px;
+          }
+        }
+        .ourInformtion{
+          h6{
+            font-weight: 700;
+          }
+          ul{
+            li{
+              padding-bottom: 0.5rem;
+              a{
+
+                font-size: 16px;
+                color: #1f2937;
+                font-weight: 300;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+        .row{
+          .col-lg-8{
+            .content{
+              font-size: 14px;
+              color: #1f2937;
+              font-weight: 300;
+            }
+            .contactLinks{
+              a{
+                font-size: 14px;
+                color: #1f2937;
+                font-weight: 300;
+              }
+
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+.copyRight{
+  .container{
+    .row{
+      .col-lg-12{
+        .text-center{
+          color: #1f2937 !important;
+          font-weight: 300;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

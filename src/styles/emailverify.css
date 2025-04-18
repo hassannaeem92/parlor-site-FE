@@ -1,0 +1,19 @@
+.verify-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.verify-green_btn {
+  border: none;
+  outline: none;
+  padding: 12px 40px;
+  background-color: #3bb19b;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}

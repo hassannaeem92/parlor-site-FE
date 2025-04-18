@@ -1,0 +1,18 @@
+.row{
+
+    .text-center{
+      .btn{
+        color: #FFFFFF;
+        background-color: #7e3f25;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 0.6rem 1.4rem !important;
+        &:focus-visible , &:focus{
+          outline: unset !important;
+          box-shadow: unset !important;
+
+        }
+      }
+    }
+
+}
